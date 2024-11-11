@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35130.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAPIJWT", "EmployeeAPIJWT\EmployeeAPIJWT.csproj", "{F16AF0A3-28E7-4F68-B9E3-2149FB631531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16AF0A3-28E7-4F68-B9E3-2149FB631531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16AF0A3-28E7-4F68-B9E3-2149FB631531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16AF0A3-28E7-4F68-B9E3-2149FB631531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16AF0A3-28E7-4F68-B9E3-2149FB631531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5F32BB1-010E-4335-A8D6-B8FBFA27ABDB}
+	EndGlobalSection
+EndGlobal

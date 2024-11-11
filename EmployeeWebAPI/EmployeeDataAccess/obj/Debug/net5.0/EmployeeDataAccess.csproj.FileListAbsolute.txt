@@ -1,0 +1,15 @@
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\bin\Debug\net5.0\EmployeeDataAccess.deps.json
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\bin\Debug\net5.0\EmployeeDataAccess.runtimeconfig.json
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\bin\Debug\net5.0\EmployeeDataAccess.runtimeconfig.dev.json
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\bin\Debug\net5.0\EmployeeDataAccess.dll
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\bin\Debug\net5.0\ref\EmployeeDataAccess.dll
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\bin\Debug\net5.0\EmployeeDataAccess.pdb
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\obj\Debug\net5.0\EmployeeDataAccess.csproj.AssemblyReference.cache
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\obj\Debug\net5.0\EmployeeDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\obj\Debug\net5.0\EmployeeDataAccess.AssemblyInfoInputs.cache
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\obj\Debug\net5.0\EmployeeDataAccess.AssemblyInfo.cs
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\obj\Debug\net5.0\EmployeeDataAccess.csproj.CoreCompileInputs.cache
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\obj\Debug\net5.0\EmployeeDataAccess.dll
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\obj\Debug\net5.0\ref\EmployeeDataAccess.dll
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\obj\Debug\net5.0\EmployeeDataAccess.pdb
+C:\DotNETProjects_Unofficial\EmployeeWebAPI\EmployeeDataAccess\obj\Debug\net5.0\EmployeeDataAccess.genruntimeconfig.cache

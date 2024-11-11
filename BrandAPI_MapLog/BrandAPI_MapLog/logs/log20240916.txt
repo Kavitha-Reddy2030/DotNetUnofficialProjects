@@ -1,0 +1,17 @@
+2024-09-16 17:46:43.536 +05:30 [INF] Starting up the application...
+2024-09-16 17:46:46.425 +05:30 [DBG] Hosting starting
+2024-09-16 17:46:46.552 +05:30 [INF] Configuring the application in Development mode.
+2024-09-16 17:46:46.561 +05:30 [INF] Development environment: Swagger UI enabled.
+2024-09-16 17:46:46.895 +05:30 [INF] Application startup complete.
+2024-09-16 17:46:47.048 +05:30 [DBG] Loaded hosting startup assembly BrandAPI_MapLog
+2024-09-16 17:46:47.048 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-16 17:46:47.049 +05:30 [INF] Hosting environment: Development
+2024-09-16 17:46:47.067 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\BrandAPI_MapLog\BrandAPI_MapLog
+2024-09-16 17:46:47.067 +05:30 [DBG] Hosting started
+2024-09-16 17:46:47.179 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/index.html - -
+2024-09-16 17:46:47.191 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-16 17:46:47.666 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/index.html - - - 200 - text/html;charset=utf-8 490.4843ms
+2024-09-16 17:46:47.670 +05:30 [DBG] Connection ID "18374686489872171125" disconnecting.
+2024-09-16 17:46:47.837 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - -
+2024-09-16 17:46:48.052 +05:30 [DBG] Connection ID "18086456105130524765" disconnecting.
+2024-09-16 17:46:48.053 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 216.6289ms

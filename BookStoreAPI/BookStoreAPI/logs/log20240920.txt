@@ -1,0 +1,1317 @@
+2024-09-20 16:28:21.547 +05:30 [INF] Starting up the application...
+2024-09-20 16:28:24.626 +05:30 [DBG] Hosting starting
+2024-09-20 16:28:24.805 +05:30 [INF] User profile is available. Using 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 16:28:24.837 +05:30 [DBG] Reading data from file 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys\key-8c0d56e6-de24-4f0e-816f-6e9f88ea509c.xml'.
+2024-09-20 16:28:24.926 +05:30 [DBG] Found key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c}.
+2024-09-20 16:28:25.005 +05:30 [DBG] Considering key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} with expiration date 2024-12-01 09:06:49Z as default key.
+2024-09-20 16:28:25.030 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-20 16:28:25.037 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-20 16:28:25.042 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-20 16:28:25.054 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-20 16:28:25.060 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-20 16:28:25.070 +05:30 [DBG] Using key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} as the default key.
+2024-09-20 16:28:25.072 +05:30 [DBG] Key ring with default key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} was loaded during application startup.
+2024-09-20 16:28:25.618 +05:30 [DBG] Loaded hosting startup assembly BookStoreAPI
+2024-09-20 16:28:25.620 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-20 16:28:25.620 +05:30 [INF] Hosting environment: Development
+2024-09-20 16:28:25.620 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\BookStoreAPI\BookStoreAPI
+2024-09-20 16:28:25.620 +05:30 [DBG] Hosting started
+2024-09-20 16:28:25.744 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/swagger/index.html - -
+2024-09-20 16:28:25.752 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-20 16:28:26.280 +05:30 [DBG] Connection ID "18086456130900328473" disconnecting.
+2024-09-20 16:28:26.289 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/swagger/index.html - - - 200 - text/html;charset=utf-8 550.7190ms
+2024-09-20 16:28:26.486 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/swagger/v1/swagger.json - -
+2024-09-20 16:28:26.810 +05:30 [DBG] Connection ID "18230571301796315245" disconnecting.
+2024-09-20 16:28:26.810 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 323.9728ms
+2024-09-20 16:28:36.279 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/filter/description - -
+2024-09-20 16:28:36.287 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:28:36.391 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore/filter/description'
+2024-09-20 16:28:36.405 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)' with route pattern 'api/BookStore/filter/description' is valid for the request path '/api/BookStore/filter/description'
+2024-09-20 16:28:36.407 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)'
+2024-09-20 16:28:36.961 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-20 16:28:36.975 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-20 16:28:36.985 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-20 16:28:36.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/filter/description - - - 401 - - 711.4733ms
+2024-09-20 16:28:56.303 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44310/api/Auth/login application/json 41
+2024-09-20 16:28:56.304 +05:30 [DBG] POST requests are not supported
+2024-09-20 16:28:56.311 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2024-09-20 16:28:56.312 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2024-09-20 16:28:56.312 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI)'
+2024-09-20 16:28:56.317 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-20 16:28:56.323 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI)'
+2024-09-20 16:28:56.347 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-20 16:28:56.451 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(BookStoreAPI.Models.DTO.LoginDTO) on controller BookStoreAPI.Controllers.AuthController (BookStoreAPI).
+2024-09-20 16:28:56.454 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:28:56.455 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:28:56.455 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:28:56.456 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:28:56.456 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:28:56.458 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.AuthController (BookStoreAPI)
+2024-09-20 16:28:56.459 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.AuthController (BookStoreAPI)
+2024-09-20 16:28:56.474 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO' ...
+2024-09-20 16:28:56.481 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO' using the name '' in request data ...
+2024-09-20 16:28:56.482 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-20 16:28:56.564 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'BookStoreAPI.Models.DTO.LoginDTO'
+2024-09-20 16:28:56.565 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO'.
+2024-09-20 16:28:56.565 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO'.
+2024-09-20 16:28:56.565 +05:30 [DBG] Attempting to validate the bound parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO' ...
+2024-09-20 16:28:56.572 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO'.
+2024-09-20 16:28:56.663 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:28:56.667 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:28:56.667 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:28:56.667 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:28:56.668 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:28:56.669 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 16:28:56.714 +05:30 [INF] Executed action BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI) in 245.7563ms
+2024-09-20 16:28:56.715 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI)'
+2024-09-20 16:28:56.716 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44310/api/Auth/login application/json 41 - 200 - application/json;+charset=utf-8 412.7734ms
+2024-09-20 16:28:56.716 +05:30 [DBG] Connection ID "18158513720643289154" disconnecting.
+2024-09-20 16:29:33.650 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore - -
+2024-09-20 16:29:33.651 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:29:33.652 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore'
+2024-09-20 16:29:33.657 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI)' with route pattern 'api/BookStore' is valid for the request path '/api/BookStore'
+2024-09-20 16:29:33.657 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI)'
+2024-09-20 16:29:33.791 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:29:33.793 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:29:33.802 +05:30 [INF] Authorization was successful.
+2024-09-20 16:29:33.809 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI)'
+2024-09-20 16:29:33.829 +05:30 [INF] Route matched with {action = "GetAllBooks", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooks() on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:29:33.829 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:29:33.830 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:29:33.830 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:29:33.830 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:29:33.830 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:29:33.830 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:29:34.118 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-20 16:29:34.412 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:29:36.167 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:29:36.351 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)'
+2024-09-20 16:29:36.535 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:29:36.539 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:29:36.886 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+        FROM Books AS b
+        INNER JOIN Authors AS a ON b.AuthorId == a.Id
+        INNER JOIN BookSizes AS b0 ON b.BookSizeId == b0.Id), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStoreAPI.Data.BookStoreDbContext, 
+    False, 
+    False
+)'
+2024-09-20 16:29:36.975 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:29:37.099 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (114ms).
+2024-09-20 16:29:37.117 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:29:39.683 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:29:39.703 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+2024-09-20 16:29:39.808 +05:30 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+2024-09-20 16:29:39.871 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:39.949 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:39.980 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:39.991 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:39.992 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:39.993 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:39.993 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:39.994 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:39.995 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:39.995 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:29:40.005 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:29:40.013 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:29:40.028 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:29:40.097 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:29:40.098 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:29:40.098 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:29:40.098 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:29:40.098 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:29:40.098 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 16:29:40.137 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI) in 6307.0979ms
+2024-09-20 16:29:40.139 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI)'
+2024-09-20 16:29:40.143 +05:30 [DBG] Connection ID "18086456105130524792" disconnecting.
+2024-09-20 16:29:40.146 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:29:40.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore - - - 200 - application/json;+charset=utf-8 6503.3731ms
+2024-09-20 16:30:13.322 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/e33ce488-9728-4268-aaa0-8a252a3bfba6 - -
+2024-09-20 16:30:13.322 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:30:13.337 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore/e33ce488-9728-4268-aaa0-8a252a3bfba6'
+2024-09-20 16:30:13.338 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)' with route pattern 'api/BookStore/{id:Guid}' is valid for the request path '/api/BookStore/e33ce488-9728-4268-aaa0-8a252a3bfba6'
+2024-09-20 16:30:13.338 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)'
+2024-09-20 16:30:13.340 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:30:13.340 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:30:13.342 +05:30 [INF] Authorization was successful.
+2024-09-20 16:30:13.343 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)'
+2024-09-20 16:30:13.350 +05:30 [INF] Route matched with {action = "GetBookById", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookById(System.Guid) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:30:13.350 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:30:13.350 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:30:13.350 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:30:13.351 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:30:13.351 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:30:13.351 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:30:13.351 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:30:13.362 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-09-20 16:30:13.370 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-09-20 16:30:13.371 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-20 16:30:13.372 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-20 16:30:13.372 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-09-20 16:30:13.372 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-09-20 16:30:13.472 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:30:13.483 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)
+    .FirstOrDefault(b => b.Id == __id_0)'
+2024-09-20 16:30:13.492 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:30:13.492 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:30:13.512 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Book>(
+    asyncEnumerable: new SingleQueryingEnumerable<Book>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+            SELECT TOP(1) b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+            FROM Books AS b
+            INNER JOIN Authors AS a ON b.AuthorId == a.Id
+            INNER JOIN BookSizes AS b0 ON b.BookSizeId == b0.Id
+            WHERE b.Id == @__id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+        BookStoreAPI.Data.BookStoreDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-20 16:30:13.520 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:30:13.521 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:30:13.531 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:30:13.532 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:30:13.538 +05:30 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+WHERE [b].[Id] = @__id_0
+2024-09-20 16:30:13.605 +05:30 [INF] Executed DbCommand (73ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+WHERE [b].[Id] = @__id_0
+2024-09-20 16:30:13.606 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:13.607 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:13.607 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:13.613 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:30:13.614 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:30:13.614 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:30:13.622 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:30:13.623 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:30:13.623 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:30:13.623 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:30:13.623 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:30:13.624 +05:30 [INF] Executing OkObjectResult, writing value of type 'BookStoreAPI.Models.DTO.BookDTO'.
+2024-09-20 16:30:13.625 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI) in 274.4599ms
+2024-09-20 16:30:13.626 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)'
+2024-09-20 16:30:13.626 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:30:13.626 +05:30 [DBG] Connection ID "18302628891539275878" disconnecting.
+2024-09-20 16:30:13.626 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/e33ce488-9728-4268-aaa0-8a252a3bfba6 - - - 200 - application/json;+charset=utf-8 304.6601ms
+2024-09-20 16:30:30.086 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/sorted/Description?sortDescriptionAscending=true - -
+2024-09-20 16:30:30.086 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:30:30.091 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore/sorted/Description'
+2024-09-20 16:30:30.091 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI)' with route pattern 'api/BookStore/sorted/Description' is valid for the request path '/api/BookStore/sorted/Description'
+2024-09-20 16:30:30.091 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI)'
+2024-09-20 16:30:30.092 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:30:30.093 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:30:30.093 +05:30 [INF] Authorization was successful.
+2024-09-20 16:30:30.094 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI)'
+2024-09-20 16:30:30.102 +05:30 [INF] Route matched with {action = "GetAllBooksSortedByDescription", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksSortedByDescription(Boolean) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:30:30.102 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:30:30.102 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:30:30.103 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:30:30.103 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:30:30.103 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:30:30.103 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:30:30.108 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:30:30.111 +05:30 [DBG] Attempting to bind parameter 'sortDescriptionAscending' of type 'System.Boolean' ...
+2024-09-20 16:30:30.116 +05:30 [DBG] Attempting to bind parameter 'sortDescriptionAscending' of type 'System.Boolean' using the name 'sortDescriptionAscending' in request data ...
+2024-09-20 16:30:30.116 +05:30 [DBG] Done attempting to bind parameter 'sortDescriptionAscending' of type 'System.Boolean'.
+2024-09-20 16:30:30.116 +05:30 [DBG] Done attempting to bind parameter 'sortDescriptionAscending' of type 'System.Boolean'.
+2024-09-20 16:30:30.116 +05:30 [DBG] Attempting to validate the bound parameter 'sortDescriptionAscending' of type 'System.Boolean' ...
+2024-09-20 16:30:30.117 +05:30 [DBG] Done attempting to validate the bound parameter 'sortDescriptionAscending' of type 'System.Boolean'.
+2024-09-20 16:30:30.142 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:30:30.148 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .OrderBy(b => b.Description)
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)'
+2024-09-20 16:30:30.150 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:30:30.151 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:30:30.164 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+        FROM Books AS b
+        INNER JOIN Authors AS a ON b.AuthorId == a.Id
+        INNER JOIN BookSizes AS b0 ON b.BookSizeId == b0.Id
+        ORDER BY b.Description ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStoreAPI.Data.BookStoreDbContext, 
+    False, 
+    False
+)'
+2024-09-20 16:30:30.165 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:30:30.165 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:30:30.165 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:30:30.166 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:30:30.166 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+ORDER BY [b].[Description]
+2024-09-20 16:30:30.174 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+ORDER BY [b].[Description]
+2024-09-20 16:30:30.174 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.174 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.175 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.175 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.175 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.176 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.176 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.177 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.177 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.177 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:30:30.178 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:30:30.178 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:30:30.178 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:30:30.179 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:30:30.179 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:30:30.179 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:30:30.179 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:30:30.179 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:30:30.180 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 16:30:30.180 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI) in 77.4797ms
+2024-09-20 16:30:30.180 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI)'
+2024-09-20 16:30:30.181 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:30:30.181 +05:30 [DBG] Connection ID "18230571306091282535" disconnecting.
+2024-09-20 16:30:30.181 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/sorted/Description?sortDescriptionAscending=true - - - 200 - application/json;+charset=utf-8 95.1134ms
+2024-09-20 16:31:45.978 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/filter/description?substring=new - -
+2024-09-20 16:31:45.982 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:31:45.982 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore/filter/description'
+2024-09-20 16:31:45.988 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)' with route pattern 'api/BookStore/filter/description' is valid for the request path '/api/BookStore/filter/description'
+2024-09-20 16:31:45.988 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)'
+2024-09-20 16:31:45.989 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:31:45.989 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:31:45.989 +05:30 [INF] Authorization was successful.
+2024-09-20 16:31:45.990 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)'
+2024-09-20 16:31:45.996 +05:30 [INF] Route matched with {action = "FilterBooksByDescription", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FilterBooksByDescription(System.String) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:31:45.997 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:31:45.997 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:31:45.997 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:31:45.997 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:31:45.997 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:31:45.998 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:31:45.998 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:31:45.999 +05:30 [DBG] Attempting to bind parameter 'substring' of type 'System.String' ...
+2024-09-20 16:31:45.999 +05:30 [DBG] Attempting to bind parameter 'substring' of type 'System.String' using the name 'substring' in request data ...
+2024-09-20 16:31:45.999 +05:30 [DBG] Done attempting to bind parameter 'substring' of type 'System.String'.
+2024-09-20 16:31:46.000 +05:30 [DBG] Done attempting to bind parameter 'substring' of type 'System.String'.
+2024-09-20 16:31:46.000 +05:30 [DBG] Attempting to validate the bound parameter 'substring' of type 'System.String' ...
+2024-09-20 16:31:46.000 +05:30 [DBG] Done attempting to validate the bound parameter 'substring' of type 'System.String'.
+2024-09-20 16:31:46.007 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:31:46.021 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:31:46.021 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:31:46.021 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:31:46.022 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:31:46.022 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+2024-09-20 16:31:46.026 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+2024-09-20 16:31:46.027 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.028 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.028 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.029 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.029 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.029 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.029 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.030 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.030 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.030 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:31:46.031 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:31:46.031 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:31:46.031 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:31:46.033 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:31:46.033 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:31:46.033 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:31:46.033 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:31:46.034 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:31:46.034 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 16:31:46.034 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI) in 36.7378ms
+2024-09-20 16:31:46.036 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)'
+2024-09-20 16:31:46.042 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:31:46.043 +05:30 [DBG] Connection ID "18086456105130524794" disconnecting.
+2024-09-20 16:31:46.043 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/filter/description?substring=new - - - 200 - application/json;+charset=utf-8 64.2651ms
+2024-09-20 16:32:03.641 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/sorted/title?sortTitleAscending=true - -
+2024-09-20 16:32:03.641 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:32:03.644 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore/sorted/title'
+2024-09-20 16:32:03.645 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI)' with route pattern 'api/BookStore/sorted/title' is valid for the request path '/api/BookStore/sorted/title'
+2024-09-20 16:32:03.645 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI)'
+2024-09-20 16:32:03.646 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:32:03.646 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:32:03.647 +05:30 [INF] Authorization was successful.
+2024-09-20 16:32:03.647 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI)'
+2024-09-20 16:32:03.659 +05:30 [INF] Route matched with {action = "GetSortedBooksByTitle", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSortedBooksByTitle(Boolean) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:32:03.659 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:32:03.659 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:32:03.660 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:32:03.660 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:32:03.660 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:32:03.660 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:32:03.661 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:32:03.661 +05:30 [DBG] Attempting to bind parameter 'sortTitleAscending' of type 'System.Boolean' ...
+2024-09-20 16:32:03.661 +05:30 [DBG] Attempting to bind parameter 'sortTitleAscending' of type 'System.Boolean' using the name 'sortTitleAscending' in request data ...
+2024-09-20 16:32:03.661 +05:30 [DBG] Done attempting to bind parameter 'sortTitleAscending' of type 'System.Boolean'.
+2024-09-20 16:32:03.662 +05:30 [DBG] Done attempting to bind parameter 'sortTitleAscending' of type 'System.Boolean'.
+2024-09-20 16:32:03.662 +05:30 [DBG] Attempting to validate the bound parameter 'sortTitleAscending' of type 'System.Boolean' ...
+2024-09-20 16:32:03.662 +05:30 [DBG] Done attempting to validate the bound parameter 'sortTitleAscending' of type 'System.Boolean'.
+2024-09-20 16:32:03.670 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:32:03.671 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)
+    .OrderBy(b => b.Title)'
+2024-09-20 16:32:03.673 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:32:03.673 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:32:03.690 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+        FROM Books AS b
+        INNER JOIN Authors AS a ON b.AuthorId == a.Id
+        INNER JOIN BookSizes AS b0 ON b.BookSizeId == b0.Id
+        ORDER BY b.Title ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStoreAPI.Data.BookStoreDbContext, 
+    False, 
+    False
+)'
+2024-09-20 16:32:03.690 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:32:03.690 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:32:03.690 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:03.691 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:03.691 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+ORDER BY [b].[Title]
+2024-09-20 16:32:03.718 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+ORDER BY [b].[Title]
+2024-09-20 16:32:03.719 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.719 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.719 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.719 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.720 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.720 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.720 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.720 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.720 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.720 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:03.720 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:32:03.720 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:03.721 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:03.721 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:32:03.721 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:32:03.721 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:32:03.721 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:32:03.721 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:32:03.721 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 16:32:03.722 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI) in 62.0717ms
+2024-09-20 16:32:03.724 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI)'
+2024-09-20 16:32:03.731 +05:30 [DBG] Connection ID "18302628891539275880" disconnecting.
+2024-09-20 16:32:03.732 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:32:03.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/sorted/title?sortTitleAscending=true - - - 200 - application/json;+charset=utf-8 91.7656ms
+2024-09-20 16:32:19.142 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/paginated?pageNumber=1&pageSize=10 - -
+2024-09-20 16:32:19.157 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:32:19.157 +05:30 [DBG] 2 candidate(s) found for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:19.157 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)' with route pattern 'api/BookStore/paginated' is valid for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:19.178 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)' with route pattern 'api/BookStore/{id:Guid}' was rejected by constraint 'id':'Microsoft.AspNetCore.Routing.Constraints.GuidRouteConstraint' with value 'paginated' for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:19.178 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)' with route pattern 'api/BookStore/{id:Guid}' is not valid for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:19.179 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:32:19.179 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:32:19.179 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:32:19.179 +05:30 [INF] Authorization was successful.
+2024-09-20 16:32:19.180 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:32:19.185 +05:30 [INF] Route matched with {action = "GetPaginatedBooks", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaginatedBooks(Int32, Int32) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:32:19.185 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:32:19.185 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:32:19.186 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:32:19.186 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:32:19.186 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:32:19.186 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:32:19.187 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:32:19.188 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2024-09-20 16:32:19.188 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2024-09-20 16:32:19.189 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:32:19.189 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:32:19.189 +05:30 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2024-09-20 16:32:19.189 +05:30 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:32:19.189 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2024-09-20 16:32:19.189 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2024-09-20 16:32:19.190 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:32:19.190 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:32:19.190 +05:30 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2024-09-20 16:32:19.190 +05:30 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:32:19.197 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:32:19.198 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Count()'
+2024-09-20 16:32:19.216 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM Books AS b), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        BookStoreAPI.Data.BookStoreDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-20 16:32:19.238 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:32:19.239 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:32:19.239 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:19.240 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:19.240 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Books] AS [b]
+2024-09-20 16:32:19.254 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Books] AS [b]
+2024-09-20 16:32:19.260 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:32:19.260 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:19.260 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:19.263 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2024-09-20 16:32:19.265 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:32:19.265 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:32:19.268 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2024-09-20 16:32:19.269 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2024-09-20 16:32:19.316 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT t.Id, t.AuthorId, t.BookSizeId, t.CoverImageUrl, t.Description, t.PublicationDate, t.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+        FROM Projection Mapping:
+        (
+            SELECT b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title
+            FROM Books AS b
+            ORDER BY (SELECT 1)
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+        ) AS t
+        INNER JOIN Authors AS a ON t.AuthorId == a.Id
+        INNER JOIN BookSizes AS b0 ON t.BookSizeId == b0.Id), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStoreAPI.Data.BookStoreDbContext, 
+    False, 
+    False
+)'
+2024-09-20 16:32:19.319 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:32:19.319 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:32:19.320 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:19.320 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:19.321 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AuthorId], [t].[BookSizeId], [t].[CoverImageUrl], [t].[Description], [t].[PublicationDate], [t].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM (
+    SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Authors] AS [a] ON [t].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [t].[BookSizeId] = [b0].[Id]
+2024-09-20 16:32:19.331 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AuthorId], [t].[BookSizeId], [t].[CoverImageUrl], [t].[Description], [t].[PublicationDate], [t].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM (
+    SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Authors] AS [a] ON [t].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [t].[BookSizeId] = [b0].[Id]
+2024-09-20 16:32:19.331 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.332 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.332 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.332 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.332 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.333 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.333 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.333 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.333 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.333 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:19.333 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:32:19.333 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:19.334 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:19.336 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:32:19.336 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:32:19.336 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:32:19.337 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:32:19.337 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:32:19.337 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 16:32:19.344 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI) in 157.3323ms
+2024-09-20 16:32:19.344 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:32:19.344 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:32:19.344 +05:30 [DBG] Connection ID "18230571306091282537" disconnecting.
+2024-09-20 16:32:19.345 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/paginated?pageNumber=1&pageSize=10 - - - 200 - application/json;+charset=utf-8 202.6022ms
+2024-09-20 16:32:24.778 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/paginated?pageNumber=1&pageSize=2 - -
+2024-09-20 16:32:24.779 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:32:24.779 +05:30 [DBG] 2 candidate(s) found for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:24.779 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)' with route pattern 'api/BookStore/paginated' is valid for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:24.779 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)' with route pattern 'api/BookStore/{id:Guid}' was rejected by constraint 'id':'Microsoft.AspNetCore.Routing.Constraints.GuidRouteConstraint' with value 'paginated' for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:24.779 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)' with route pattern 'api/BookStore/{id:Guid}' is not valid for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:24.779 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:32:24.780 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:32:24.780 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:32:24.780 +05:30 [INF] Authorization was successful.
+2024-09-20 16:32:24.782 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:32:24.782 +05:30 [INF] Route matched with {action = "GetPaginatedBooks", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaginatedBooks(Int32, Int32) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:32:24.782 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:32:24.782 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:32:24.782 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:32:24.782 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:32:24.783 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:32:24.783 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:32:24.783 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:32:24.783 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2024-09-20 16:32:24.783 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2024-09-20 16:32:24.783 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:32:24.783 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:32:24.784 +05:30 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2024-09-20 16:32:24.784 +05:30 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:32:24.784 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2024-09-20 16:32:24.784 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2024-09-20 16:32:24.784 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:32:24.784 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:32:24.784 +05:30 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2024-09-20 16:32:24.784 +05:30 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:32:24.785 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:32:24.786 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:32:24.786 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:32:24.787 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:24.787 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:24.787 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Books] AS [b]
+2024-09-20 16:32:24.790 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Books] AS [b]
+2024-09-20 16:32:24.792 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:32:24.793 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:24.794 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:24.797 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:32:24.797 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:32:24.798 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:24.798 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:24.799 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AuthorId], [t].[BookSizeId], [t].[CoverImageUrl], [t].[Description], [t].[PublicationDate], [t].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM (
+    SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Authors] AS [a] ON [t].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [t].[BookSizeId] = [b0].[Id]
+2024-09-20 16:32:24.801 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AuthorId], [t].[BookSizeId], [t].[CoverImageUrl], [t].[Description], [t].[PublicationDate], [t].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM (
+    SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Authors] AS [a] ON [t].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [t].[BookSizeId] = [b0].[Id]
+2024-09-20 16:32:24.802 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:24.802 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:24.802 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:24.803 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:24.803 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:24.803 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:24.803 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:32:24.803 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:24.804 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:24.804 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:32:24.804 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:32:24.804 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:32:24.804 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:32:24.804 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:32:24.804 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 16:32:24.805 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI) in 22.3871ms
+2024-09-20 16:32:24.805 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:32:24.805 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:32:24.806 +05:30 [DBG] Connection ID "18230571306091282539" disconnecting.
+2024-09-20 16:32:24.806 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/paginated?pageNumber=1&pageSize=2 - - - 200 - application/json;+charset=utf-8 28.0438ms
+2024-09-20 16:32:32.084 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/paginated?pageNumber=2&pageSize=2 - -
+2024-09-20 16:32:32.085 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:32:32.085 +05:30 [DBG] 2 candidate(s) found for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:32.085 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)' with route pattern 'api/BookStore/paginated' is valid for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:32.085 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)' with route pattern 'api/BookStore/{id:Guid}' was rejected by constraint 'id':'Microsoft.AspNetCore.Routing.Constraints.GuidRouteConstraint' with value 'paginated' for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:32.085 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)' with route pattern 'api/BookStore/{id:Guid}' is not valid for the request path '/api/BookStore/paginated'
+2024-09-20 16:32:32.085 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:32:32.086 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:32:32.086 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:32:32.086 +05:30 [INF] Authorization was successful.
+2024-09-20 16:32:32.087 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:32:32.087 +05:30 [INF] Route matched with {action = "GetPaginatedBooks", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaginatedBooks(Int32, Int32) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:32:32.087 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:32:32.087 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:32:32.087 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:32:32.087 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:32:32.087 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:32:32.088 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:32:32.088 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:32:32.088 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2024-09-20 16:32:32.088 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2024-09-20 16:32:32.088 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:32:32.088 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:32:32.088 +05:30 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2024-09-20 16:32:32.089 +05:30 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:32:32.089 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2024-09-20 16:32:32.089 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2024-09-20 16:32:32.089 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:32:32.089 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:32:32.089 +05:30 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2024-09-20 16:32:32.089 +05:30 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:32:32.090 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:32:32.090 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:32:32.090 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:32:32.090 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:32.091 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:32.091 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Books] AS [b]
+2024-09-20 16:32:32.093 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Books] AS [b]
+2024-09-20 16:32:32.094 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:32:32.095 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:32.095 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:32.097 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)
+    .Skip(__p_0)
+    .Take(__p_0)'
+2024-09-20 16:32:32.099 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:32:32.100 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:32:32.101 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2024-09-20 16:32:32.101 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2024-09-20 16:32:32.121 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT t.Id, t.AuthorId, t.BookSizeId, t.CoverImageUrl, t.Description, t.PublicationDate, t.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+        FROM Projection Mapping:
+        (
+            SELECT b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title
+            FROM Books AS b
+            ORDER BY (SELECT 1)
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+        ) AS t
+        INNER JOIN Authors AS a ON t.AuthorId == a.Id
+        INNER JOIN BookSizes AS b0 ON t.BookSizeId == b0.Id), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStoreAPI.Data.BookStoreDbContext, 
+    False, 
+    False
+)'
+2024-09-20 16:32:32.121 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:32:32.121 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:32:32.121 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:32.121 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:32.122 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AuthorId], [t].[BookSizeId], [t].[CoverImageUrl], [t].[Description], [t].[PublicationDate], [t].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM (
+    SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+INNER JOIN [Authors] AS [a] ON [t].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [t].[BookSizeId] = [b0].[Id]
+2024-09-20 16:32:32.133 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AuthorId], [t].[BookSizeId], [t].[CoverImageUrl], [t].[Description], [t].[PublicationDate], [t].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM (
+    SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+INNER JOIN [Authors] AS [a] ON [t].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [t].[BookSizeId] = [b0].[Id]
+2024-09-20 16:32:32.133 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:32.133 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:32.134 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:32.134 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:32.134 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:32.134 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:32:32.134 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:32:32.134 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:32.135 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:32:32.135 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:32:32.135 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:32:32.135 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:32:32.136 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:32:32.136 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:32:32.136 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 16:32:32.137 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI) in 49.0978ms
+2024-09-20 16:32:32.137 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:32:32.137 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:32:32.137 +05:30 [DBG] Connection ID "18158513720643289156" disconnecting.
+2024-09-20 16:32:32.138 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/paginated?pageNumber=2&pageSize=2 - - - 200 - application/json;+charset=utf-8 53.1478ms
+2024-09-20 16:40:45.792 +05:30 [INF] Starting up the application...
+2024-09-20 16:40:47.805 +05:30 [DBG] Hosting starting
+2024-09-20 16:40:47.938 +05:30 [INF] User profile is available. Using 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 16:40:47.977 +05:30 [DBG] Reading data from file 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys\key-8c0d56e6-de24-4f0e-816f-6e9f88ea509c.xml'.
+2024-09-20 16:40:48.044 +05:30 [DBG] Found key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c}.
+2024-09-20 16:40:48.082 +05:30 [DBG] Considering key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} with expiration date 2024-12-01 09:06:49Z as default key.
+2024-09-20 16:40:48.122 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-20 16:40:48.130 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-20 16:40:48.135 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-20 16:40:48.150 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-20 16:40:48.163 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-20 16:40:48.174 +05:30 [DBG] Using key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} as the default key.
+2024-09-20 16:40:48.176 +05:30 [DBG] Key ring with default key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} was loaded during application startup.
+2024-09-20 16:40:48.649 +05:30 [DBG] Loaded hosting startup assembly BookStoreAPI
+2024-09-20 16:40:48.650 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-20 16:40:48.650 +05:30 [INF] Hosting environment: Development
+2024-09-20 16:40:48.650 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\BookStoreAPI\BookStoreAPI
+2024-09-20 16:40:48.651 +05:30 [DBG] Hosting started
+2024-09-20 16:40:48.763 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/swagger/index.html - -
+2024-09-20 16:40:48.771 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-20 16:40:49.244 +05:30 [DBG] Connection ID "18374686511347007608" disconnecting.
+2024-09-20 16:40:49.258 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/swagger/index.html - - - 200 - text/html;charset=utf-8 500.3458ms
+2024-09-20 16:40:49.433 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/swagger/v1/swagger.json - -
+2024-09-20 16:40:49.753 +05:30 [DBG] Connection ID "18302628891539275882" disconnecting.
+2024-09-20 16:40:49.754 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 320.9254ms
+2024-09-20 16:41:07.304 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44310/api/Auth/login application/json 41
+2024-09-20 16:41:07.313 +05:30 [DBG] POST requests are not supported
+2024-09-20 16:41:07.403 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2024-09-20 16:41:07.417 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2024-09-20 16:41:07.420 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI)'
+2024-09-20 16:41:07.691 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-20 16:41:07.699 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI)'
+2024-09-20 16:41:07.717 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-20 16:41:07.837 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(BookStoreAPI.Models.DTO.LoginDTO) on controller BookStoreAPI.Controllers.AuthController (BookStoreAPI).
+2024-09-20 16:41:07.841 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:41:07.842 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:41:07.843 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:41:07.843 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:41:07.843 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:41:07.846 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.AuthController (BookStoreAPI)
+2024-09-20 16:41:07.847 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.AuthController (BookStoreAPI)
+2024-09-20 16:41:07.863 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO' ...
+2024-09-20 16:41:07.868 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO' using the name '' in request data ...
+2024-09-20 16:41:07.871 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-20 16:41:07.941 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'BookStoreAPI.Models.DTO.LoginDTO'
+2024-09-20 16:41:07.942 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO'.
+2024-09-20 16:41:07.942 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO'.
+2024-09-20 16:41:07.942 +05:30 [DBG] Attempting to validate the bound parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO' ...
+2024-09-20 16:41:07.947 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDTO' of type 'BookStoreAPI.Models.DTO.LoginDTO'.
+2024-09-20 16:41:08.022 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:41:08.026 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:41:08.026 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:41:08.027 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:41:08.028 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:41:08.029 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 16:41:08.076 +05:30 [INF] Executed action BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI) in 219.0103ms
+2024-09-20 16:41:08.076 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.AuthController.Login (BookStoreAPI)'
+2024-09-20 16:41:08.077 +05:30 [DBG] Connection ID "17870283348786544762" disconnecting.
+2024-09-20 16:41:08.077 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44310/api/Auth/login application/json 41 - 200 - application/json;+charset=utf-8 772.8277ms
+2024-09-20 16:41:41.867 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore - -
+2024-09-20 16:41:41.876 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:41:41.881 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore'
+2024-09-20 16:41:41.881 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI)' with route pattern 'api/BookStore' is valid for the request path '/api/BookStore'
+2024-09-20 16:41:41.881 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI)'
+2024-09-20 16:41:42.017 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:41:42.018 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:41:42.029 +05:30 [INF] Authorization was successful.
+2024-09-20 16:41:42.030 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI)'
+2024-09-20 16:41:42.049 +05:30 [INF] Route matched with {action = "GetAllBooks", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooks() on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:41:42.049 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:41:42.050 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:41:42.050 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:41:42.050 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:41:42.050 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:41:42.050 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:41:42.303 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-20 16:41:42.597 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:41:44.327 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:41:44.469 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)'
+2024-09-20 16:41:44.669 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:41:44.674 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:41:45.007 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+        FROM Books AS b
+        INNER JOIN Authors AS a ON b.AuthorId == a.Id
+        INNER JOIN BookSizes AS b0 ON b.BookSizeId == b0.Id), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStoreAPI.Data.BookStoreDbContext, 
+    False, 
+    False
+)'
+2024-09-20 16:41:45.094 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:41:45.198 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (92ms).
+2024-09-20 16:41:45.212 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:41:47.616 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:41:47.646 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+2024-09-20 16:41:47.780 +05:30 [INF] Executed DbCommand (137ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+2024-09-20 16:41:47.849 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:47.942 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:47.988 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:48.006 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:48.008 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:48.008 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:48.009 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:48.010 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:48.010 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:48.010 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:41:48.024 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:41:48.033 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:41:48.051 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:41:48.134 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:41:48.135 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:41:48.135 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:41:48.135 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:41:48.136 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:41:48.136 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 16:41:48.180 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI) in 6130.5575ms
+2024-09-20 16:41:48.182 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooks (BookStoreAPI)'
+2024-09-20 16:41:48.189 +05:30 [DBG] Connection ID "18230571301796315247" disconnecting.
+2024-09-20 16:41:48.193 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:41:48.198 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore - - - 200 - application/json;+charset=utf-8 6330.5300ms
+2024-09-20 16:42:12.588 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/filter/description?substring=Harry - -
+2024-09-20 16:42:12.590 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:42:12.596 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore/filter/description'
+2024-09-20 16:42:12.596 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)' with route pattern 'api/BookStore/filter/description' is valid for the request path '/api/BookStore/filter/description'
+2024-09-20 16:42:12.598 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)'
+2024-09-20 16:42:12.613 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:42:12.613 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:42:12.614 +05:30 [INF] Authorization was successful.
+2024-09-20 16:42:12.614 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)'
+2024-09-20 16:42:12.624 +05:30 [INF] Route matched with {action = "FilterBooksByDescription", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FilterBooksByDescription(System.String) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:42:12.624 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:42:12.624 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:42:12.624 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:42:12.625 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:42:12.625 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:42:12.625 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:42:12.625 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:42:12.627 +05:30 [DBG] Attempting to bind parameter 'substring' of type 'System.String' ...
+2024-09-20 16:42:12.631 +05:30 [DBG] Attempting to bind parameter 'substring' of type 'System.String' using the name 'substring' in request data ...
+2024-09-20 16:42:12.633 +05:30 [DBG] Done attempting to bind parameter 'substring' of type 'System.String'.
+2024-09-20 16:42:12.633 +05:30 [DBG] Done attempting to bind parameter 'substring' of type 'System.String'.
+2024-09-20 16:42:12.633 +05:30 [DBG] Attempting to validate the bound parameter 'substring' of type 'System.String' ...
+2024-09-20 16:42:12.634 +05:30 [DBG] Done attempting to validate the bound parameter 'substring' of type 'System.String'.
+2024-09-20 16:42:12.725 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:42:12.729 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:42:12.730 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:42:12.730 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:12.735 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:12.735 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+2024-09-20 16:42:12.744 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+2024-09-20 16:42:12.746 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.746 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.746 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.747 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.747 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.747 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.747 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.748 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.748 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.749 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:12.749 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:42:12.749 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:12.749 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:12.751 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:42:12.751 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:42:12.751 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:42:12.752 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:42:12.752 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:42:12.752 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 16:42:12.752 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI) in 127.737ms
+2024-09-20 16:42:12.753 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.FilterBooksByDescription (BookStoreAPI)'
+2024-09-20 16:42:12.753 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:42:12.753 +05:30 [DBG] Connection ID "18230571306091282541" disconnecting.
+2024-09-20 16:42:12.754 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/filter/description?substring=Harry - - - 200 - application/json;+charset=utf-8 165.9301ms
+2024-09-20 16:42:23.049 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/sorted/Description?sortDescriptionAscending=true - -
+2024-09-20 16:42:23.049 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:42:23.056 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore/sorted/Description'
+2024-09-20 16:42:23.056 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI)' with route pattern 'api/BookStore/sorted/Description' is valid for the request path '/api/BookStore/sorted/Description'
+2024-09-20 16:42:23.057 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI)'
+2024-09-20 16:42:23.058 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:42:23.058 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:42:23.061 +05:30 [INF] Authorization was successful.
+2024-09-20 16:42:23.061 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI)'
+2024-09-20 16:42:23.068 +05:30 [INF] Route matched with {action = "GetAllBooksSortedByDescription", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllBooksSortedByDescription(Boolean) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:42:23.068 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:42:23.068 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:42:23.068 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:42:23.069 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:42:23.069 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:42:23.069 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:42:23.074 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:42:23.074 +05:30 [DBG] Attempting to bind parameter 'sortDescriptionAscending' of type 'System.Boolean' ...
+2024-09-20 16:42:23.075 +05:30 [DBG] Attempting to bind parameter 'sortDescriptionAscending' of type 'System.Boolean' using the name 'sortDescriptionAscending' in request data ...
+2024-09-20 16:42:23.076 +05:30 [DBG] Done attempting to bind parameter 'sortDescriptionAscending' of type 'System.Boolean'.
+2024-09-20 16:42:23.077 +05:30 [DBG] Done attempting to bind parameter 'sortDescriptionAscending' of type 'System.Boolean'.
+2024-09-20 16:42:23.077 +05:30 [DBG] Attempting to validate the bound parameter 'sortDescriptionAscending' of type 'System.Boolean' ...
+2024-09-20 16:42:23.077 +05:30 [DBG] Done attempting to validate the bound parameter 'sortDescriptionAscending' of type 'System.Boolean'.
+2024-09-20 16:42:23.104 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:42:23.109 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .OrderBy(b => b.Description)
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)'
+2024-09-20 16:42:23.119 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:42:23.119 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:42:23.135 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+        FROM Books AS b
+        INNER JOIN Authors AS a ON b.AuthorId == a.Id
+        INNER JOIN BookSizes AS b0 ON b.BookSizeId == b0.Id
+        ORDER BY b.Description ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStoreAPI.Data.BookStoreDbContext, 
+    False, 
+    False
+)'
+2024-09-20 16:42:23.136 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:42:23.137 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:42:23.137 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:23.137 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:23.137 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+ORDER BY [b].[Description]
+2024-09-20 16:42:23.148 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+ORDER BY [b].[Description]
+2024-09-20 16:42:23.148 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.148 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.149 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.149 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.149 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.149 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.150 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.150 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.150 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.150 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:23.150 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:42:23.151 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:23.151 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:23.151 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:42:23.151 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:42:23.152 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:42:23.152 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:42:23.152 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:42:23.152 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 16:42:23.153 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI) in 84.0665ms
+2024-09-20 16:42:23.153 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetAllBooksSortedByDescription (BookStoreAPI)'
+2024-09-20 16:42:23.153 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:42:23.153 +05:30 [DBG] Connection ID "18230571306091282543" disconnecting.
+2024-09-20 16:42:23.154 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/sorted/Description?sortDescriptionAscending=true - - - 200 - application/json;+charset=utf-8 105.4282ms
+2024-09-20 16:42:38.679 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/sorted/title?sortTitleAscending=true - -
+2024-09-20 16:42:38.680 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:42:38.683 +05:30 [DBG] 1 candidate(s) found for the request path '/api/BookStore/sorted/title'
+2024-09-20 16:42:38.683 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI)' with route pattern 'api/BookStore/sorted/title' is valid for the request path '/api/BookStore/sorted/title'
+2024-09-20 16:42:38.684 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI)'
+2024-09-20 16:42:38.686 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:42:38.687 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:42:38.687 +05:30 [INF] Authorization was successful.
+2024-09-20 16:42:38.688 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI)'
+2024-09-20 16:42:38.693 +05:30 [INF] Route matched with {action = "GetSortedBooksByTitle", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSortedBooksByTitle(Boolean) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:42:38.693 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:42:38.694 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:42:38.694 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:42:38.694 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:42:38.694 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:42:38.695 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:42:38.695 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:42:38.695 +05:30 [DBG] Attempting to bind parameter 'sortTitleAscending' of type 'System.Boolean' ...
+2024-09-20 16:42:38.696 +05:30 [DBG] Attempting to bind parameter 'sortTitleAscending' of type 'System.Boolean' using the name 'sortTitleAscending' in request data ...
+2024-09-20 16:42:38.696 +05:30 [DBG] Done attempting to bind parameter 'sortTitleAscending' of type 'System.Boolean'.
+2024-09-20 16:42:38.696 +05:30 [DBG] Done attempting to bind parameter 'sortTitleAscending' of type 'System.Boolean'.
+2024-09-20 16:42:38.696 +05:30 [DBG] Attempting to validate the bound parameter 'sortTitleAscending' of type 'System.Boolean' ...
+2024-09-20 16:42:38.696 +05:30 [DBG] Done attempting to validate the bound parameter 'sortTitleAscending' of type 'System.Boolean'.
+2024-09-20 16:42:38.702 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:42:38.703 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)
+    .OrderBy(b => b.Title)'
+2024-09-20 16:42:38.704 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:42:38.705 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:42:38.716 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+        FROM Books AS b
+        INNER JOIN Authors AS a ON b.AuthorId == a.Id
+        INNER JOIN BookSizes AS b0 ON b.BookSizeId == b0.Id
+        ORDER BY b.Title ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStoreAPI.Data.BookStoreDbContext, 
+    False, 
+    False
+)'
+2024-09-20 16:42:38.717 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:42:38.717 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:42:38.718 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:38.718 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:38.718 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+ORDER BY [b].[Title]
+2024-09-20 16:42:38.727 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM [Books] AS [b]
+INNER JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [b].[BookSizeId] = [b0].[Id]
+ORDER BY [b].[Title]
+2024-09-20 16:42:38.728 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.728 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.728 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.728 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.728 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.728 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.729 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.729 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.729 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.729 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:38.729 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:42:38.729 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:38.730 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:38.730 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:42:38.730 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:42:38.730 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:42:38.730 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:42:38.730 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:42:38.730 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-20 16:42:38.731 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI) in 36.9443ms
+2024-09-20 16:42:38.732 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetSortedBooksByTitle (BookStoreAPI)'
+2024-09-20 16:42:38.732 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:42:38.732 +05:30 [DBG] Connection ID "17870283348786544764" disconnecting.
+2024-09-20 16:42:38.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/sorted/title?sortTitleAscending=true - - - 200 - application/json;+charset=utf-8 53.4788ms
+2024-09-20 16:42:58.551 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44310/api/BookStore/paginated?pageNumber=2&pageSize=2 - -
+2024-09-20 16:42:58.552 +05:30 [DBG] The request path  does not match the path filter
+2024-09-20 16:42:58.553 +05:30 [DBG] 2 candidate(s) found for the request path '/api/BookStore/paginated'
+2024-09-20 16:42:58.553 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)' with route pattern 'api/BookStore/paginated' is valid for the request path '/api/BookStore/paginated'
+2024-09-20 16:42:58.570 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)' with route pattern 'api/BookStore/{id:Guid}' was rejected by constraint 'id':'Microsoft.AspNetCore.Routing.Constraints.GuidRouteConstraint' with value 'paginated' for the request path '/api/BookStore/paginated'
+2024-09-20 16:42:58.571 +05:30 [DBG] Endpoint 'BookStoreAPI.Controllers.BookStoreController.GetBookById (BookStoreAPI)' with route pattern 'api/BookStore/{id:Guid}' is not valid for the request path '/api/BookStore/paginated'
+2024-09-20 16:42:58.571 +05:30 [DBG] Request matched endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:42:58.572 +05:30 [INF] Successfully validated the token.
+2024-09-20 16:42:58.572 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-20 16:42:58.572 +05:30 [INF] Authorization was successful.
+2024-09-20 16:42:58.573 +05:30 [INF] Executing endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:42:58.582 +05:30 [INF] Route matched with {action = "GetPaginatedBooks", controller = "BookStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaginatedBooks(Int32, Int32) on controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI).
+2024-09-20 16:42:58.582 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-20 16:42:58.582 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-20 16:42:58.582 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-20 16:42:58.582 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-20 16:42:58.582 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-20 16:42:58.582 +05:30 [DBG] Executing controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:42:58.583 +05:30 [DBG] Executed controller factory for controller BookStoreAPI.Controllers.BookStoreController (BookStoreAPI)
+2024-09-20 16:42:58.583 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2024-09-20 16:42:58.583 +05:30 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2024-09-20 16:42:58.584 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:42:58.584 +05:30 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:42:58.584 +05:30 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2024-09-20 16:42:58.584 +05:30 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2024-09-20 16:42:58.584 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' ...
+2024-09-20 16:42:58.584 +05:30 [DBG] Attempting to bind parameter 'pageSize' of type 'System.Int32' using the name 'pageSize' in request data ...
+2024-09-20 16:42:58.584 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:42:58.584 +05:30 [DBG] Done attempting to bind parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:42:58.584 +05:30 [DBG] Attempting to validate the bound parameter 'pageSize' of type 'System.Int32' ...
+2024-09-20 16:42:58.584 +05:30 [DBG] Done attempting to validate the bound parameter 'pageSize' of type 'System.Int32'.
+2024-09-20 16:42:58.592 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'BookStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-20 16:42:58.594 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Count()'
+2024-09-20 16:42:58.614 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new SingleQueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM Books AS b), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+        BookStoreAPI.Data.BookStoreDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-20 16:42:58.633 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:42:58.634 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:42:58.634 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:58.635 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:58.635 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Books] AS [b]
+2024-09-20 16:42:58.651 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Books] AS [b]
+2024-09-20 16:42:58.656 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:42:58.656 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:58.656 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:58.664 +05:30 [DBG] Compiling query expression: 
+'DbSet<Book>()
+    .Include(b => b.Author)
+    .Include(b => b.BookSize)
+    .Skip(__p_0)
+    .Take(__p_0)'
+2024-09-20 16:42:58.665 +05:30 [DBG] Including navigation: 'Book.Author'.
+2024-09-20 16:42:58.666 +05:30 [DBG] Including navigation: 'Book.BookSize'.
+2024-09-20 16:42:58.670 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2024-09-20 16:42:58.670 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2024-09-20 16:42:58.706 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Book>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT t.Id, t.AuthorId, t.BookSizeId, t.CoverImageUrl, t.Description, t.PublicationDate, t.Title, a.Id, a.Bio, a.Birthdate, a.Name, a.ProfileImageUrl, b0.Id, b0.Size
+        FROM Projection Mapping:
+        (
+            SELECT b.Id, b.AuthorId, b.BookSizeId, b.CoverImageUrl, b.Description, b.PublicationDate, b.Title
+            FROM Books AS b
+            ORDER BY (SELECT 1)
+            OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+        ) AS t
+        INNER JOIN Authors AS a ON t.AuthorId == a.Id
+        INNER JOIN BookSizes AS b0 ON t.BookSizeId == b0.Id), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Book>, 
+    BookStoreAPI.Data.BookStoreDbContext, 
+    False, 
+    False
+)'
+2024-09-20 16:42:58.712 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-20 16:42:58.712 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-20 16:42:58.720 +05:30 [DBG] Opening connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:58.720 +05:30 [DBG] Opened connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:58.725 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AuthorId], [t].[BookSizeId], [t].[CoverImageUrl], [t].[Description], [t].[PublicationDate], [t].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM (
+    SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+INNER JOIN [Authors] AS [a] ON [t].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [t].[BookSizeId] = [b0].[Id]
+2024-09-20 16:42:58.774 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AuthorId], [t].[BookSizeId], [t].[CoverImageUrl], [t].[Description], [t].[PublicationDate], [t].[Title], [a].[Id], [a].[Bio], [a].[Birthdate], [a].[Name], [a].[ProfileImageUrl], [b0].[Id], [b0].[Size]
+FROM (
+    SELECT [b].[Id], [b].[AuthorId], [b].[BookSizeId], [b].[CoverImageUrl], [b].[Description], [b].[PublicationDate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+) AS [t]
+INNER JOIN [Authors] AS [a] ON [t].[AuthorId] = [a].[Id]
+INNER JOIN [BookSizes] AS [b0] ON [t].[BookSizeId] = [b0].[Id]
+2024-09-20 16:42:58.774 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:58.774 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:58.775 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:58.775 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:58.775 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:58.775 +05:30 [DBG] Context 'BookStoreDbContext' started tracking 'BookSize' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-20 16:42:58.781 +05:30 [DBG] A data reader was disposed.
+2024-09-20 16:42:58.781 +05:30 [DBG] Closing connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:58.781 +05:30 [DBG] Closed connection to database 'BookStoreAPIDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-20 16:42:58.783 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-20 16:42:58.783 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-20 16:42:58.783 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-20 16:42:58.783 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-20 16:42:58.784 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-20 16:42:58.784 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[BookStoreAPI.Models.DTO.BookDTO, BookStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-20 16:42:58.787 +05:30 [INF] Executed action BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI) in 204.7981ms
+2024-09-20 16:42:58.787 +05:30 [INF] Executed endpoint 'BookStoreAPI.Controllers.BookStoreController.GetPaginatedBooks (BookStoreAPI)'
+2024-09-20 16:42:58.788 +05:30 [DBG] 'BookStoreDbContext' disposed.
+2024-09-20 16:42:58.788 +05:30 [DBG] Connection ID "18302628887244308694" disconnecting.
+2024-09-20 16:42:58.788 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44310/api/BookStore/paginated?pageNumber=2&pageSize=2 - - - 200 - application/json;+charset=utf-8 236.7097ms

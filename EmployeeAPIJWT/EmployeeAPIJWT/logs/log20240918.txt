@@ -1,0 +1,460 @@
+2024-09-18 10:20:37.553 +05:30 [INF] Starting up the application...
+2024-09-18 10:20:41.276 +05:30 [DBG] Hosting starting
+2024-09-18 10:20:41.464 +05:30 [INF] User profile is available. Using 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 10:20:41.498 +05:30 [DBG] Reading data from file 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys\key-8c0d56e6-de24-4f0e-816f-6e9f88ea509c.xml'.
+2024-09-18 10:20:41.593 +05:30 [DBG] Found key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c}.
+2024-09-18 10:20:41.649 +05:30 [DBG] Considering key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} with expiration date 2024-12-01 09:06:49Z as default key.
+2024-09-18 10:20:41.729 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:20:41.742 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-18 10:20:41.746 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:20:41.757 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-18 10:20:41.763 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-18 10:20:41.769 +05:30 [DBG] Using key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} as the default key.
+2024-09-18 10:20:41.771 +05:30 [DBG] Key ring with default key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} was loaded during application startup.
+2024-09-18 10:20:42.308 +05:30 [DBG] Loaded hosting startup assembly EmployeeAPIJWT
+2024-09-18 10:20:42.309 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 10:20:42.309 +05:30 [INF] Hosting environment: Development
+2024-09-18 10:20:42.310 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\EmployeeAPIJWT\EmployeeAPIJWT
+2024-09-18 10:20:42.310 +05:30 [DBG] Hosting started
+2024-09-18 10:20:42.426 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - -
+2024-09-18 10:20:42.431 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-18 10:20:42.796 +05:30 [DBG] Connection ID "18086456109425492065" disconnecting.
+2024-09-18 10:20:42.807 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - - - 200 - text/html;charset=utf-8 386.2786ms
+2024-09-18 10:20:43.091 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - -
+2024-09-18 10:20:43.331 +05:30 [DBG] Connection ID "18086456109425492067" disconnecting.
+2024-09-18 10:20:43.333 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 241.9322ms
+2024-09-18 10:21:00.871 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44394/api/Auth/login application/json 41
+2024-09-18 10:21:00.875 +05:30 [DBG] POST requests are not supported
+2024-09-18 10:21:00.963 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2024-09-18 10:21:00.977 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2024-09-18 10:21:00.979 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)'
+2024-09-18 10:21:01.340 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-18 10:21:01.345 +05:30 [INF] Executing endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)'
+2024-09-18 10:21:01.369 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-18 10:21:01.467 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EmployeeAPIJWT.Models.DTO.LoginDTO) on controller EmployeeAPIJWT.Controllers.AuthController (EmployeeAPIJWT).
+2024-09-18 10:21:01.471 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-18 10:21:01.471 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-18 10:21:01.472 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-18 10:21:01.472 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-18 10:21:01.472 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-18 10:21:01.474 +05:30 [DBG] Executing controller factory for controller EmployeeAPIJWT.Controllers.AuthController (EmployeeAPIJWT)
+2024-09-18 10:21:01.475 +05:30 [DBG] Executed controller factory for controller EmployeeAPIJWT.Controllers.AuthController (EmployeeAPIJWT)
+2024-09-18 10:21:01.493 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO' ...
+2024-09-18 10:21:01.498 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO' using the name '' in request data ...
+2024-09-18 10:21:01.501 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-18 10:21:01.558 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'EmployeeAPIJWT.Models.DTO.LoginDTO'
+2024-09-18 10:21:01.559 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO'.
+2024-09-18 10:21:01.560 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO'.
+2024-09-18 10:21:01.560 +05:30 [DBG] Attempting to validate the bound parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO' ...
+2024-09-18 10:21:01.566 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO'.
+2024-09-18 10:21:01.685 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-18 10:21:01.690 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-18 10:21:01.691 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-18 10:21:01.691 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-18 10:21:01.694 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-18 10:21:01.694 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-18 10:21:01.747 +05:30 [INF] Executed action EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT) in 259.0371ms
+2024-09-18 10:21:01.748 +05:30 [INF] Executed endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)'
+2024-09-18 10:21:01.750 +05:30 [DBG] Connection ID "18230571301796315168" disconnecting.
+2024-09-18 10:21:01.750 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44394/api/Auth/login application/json 41 - 200 - application/json;+charset=utf-8 878.9428ms
+2024-09-18 10:23:29.869 +05:30 [INF] Starting up the application...
+2024-09-18 10:23:32.260 +05:30 [DBG] Hosting starting
+2024-09-18 10:23:32.402 +05:30 [INF] User profile is available. Using 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 10:23:32.441 +05:30 [DBG] Reading data from file 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys\key-8c0d56e6-de24-4f0e-816f-6e9f88ea509c.xml'.
+2024-09-18 10:23:32.513 +05:30 [DBG] Found key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c}.
+2024-09-18 10:23:32.560 +05:30 [DBG] Considering key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} with expiration date 2024-12-01 09:06:49Z as default key.
+2024-09-18 10:23:32.591 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:23:32.600 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-18 10:23:32.603 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:23:32.615 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-18 10:23:32.627 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-18 10:23:32.637 +05:30 [DBG] Using key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} as the default key.
+2024-09-18 10:23:32.639 +05:30 [DBG] Key ring with default key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} was loaded during application startup.
+2024-09-18 10:23:33.094 +05:30 [DBG] Loaded hosting startup assembly EmployeeAPIJWT
+2024-09-18 10:23:33.097 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 10:23:33.098 +05:30 [INF] Hosting environment: Development
+2024-09-18 10:23:33.098 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\EmployeeAPIJWT\EmployeeAPIJWT
+2024-09-18 10:23:33.098 +05:30 [DBG] Hosting started
+2024-09-18 10:23:33.237 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - -
+2024-09-18 10:23:33.245 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-18 10:23:33.809 +05:30 [DBG] Connection ID "18374686511347007564" disconnecting.
+2024-09-18 10:23:33.824 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - - - 200 - text/html;charset=utf-8 601.7368ms
+2024-09-18 10:23:34.036 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - -
+2024-09-18 10:23:34.264 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.8771ms
+2024-09-18 10:23:34.264 +05:30 [DBG] Connection ID "18302628887244308570" disconnecting.
+2024-09-18 10:23:53.533 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/api/Employee - -
+2024-09-18 10:23:53.540 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 10:23:53.634 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 10:23:53.649 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 10:23:53.651 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 10:23:53.903 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-18 10:23:53.911 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 10:23:53.919 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 10:23:53.922 +05:30 [DBG] Connection ID "18302628887244308572" disconnecting.
+2024-09-18 10:23:53.922 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/api/Employee - - - 401 - - 389.9805ms
+2024-09-18 10:24:54.543 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44394/api/Auth/login application/json 41
+2024-09-18 10:24:54.543 +05:30 [DBG] POST requests are not supported
+2024-09-18 10:24:54.550 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2024-09-18 10:24:54.550 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2024-09-18 10:24:54.550 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)'
+2024-09-18 10:24:54.567 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-18 10:24:54.572 +05:30 [INF] Executing endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)'
+2024-09-18 10:24:54.591 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-18 10:24:54.663 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EmployeeAPIJWT.Models.DTO.LoginDTO) on controller EmployeeAPIJWT.Controllers.AuthController (EmployeeAPIJWT).
+2024-09-18 10:24:54.664 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-18 10:24:54.664 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-18 10:24:54.665 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-18 10:24:54.665 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-18 10:24:54.665 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-18 10:24:54.666 +05:30 [DBG] Executing controller factory for controller EmployeeAPIJWT.Controllers.AuthController (EmployeeAPIJWT)
+2024-09-18 10:24:54.667 +05:30 [DBG] Executed controller factory for controller EmployeeAPIJWT.Controllers.AuthController (EmployeeAPIJWT)
+2024-09-18 10:24:54.677 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO' ...
+2024-09-18 10:24:54.681 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO' using the name '' in request data ...
+2024-09-18 10:24:54.682 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-18 10:24:54.724 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'EmployeeAPIJWT.Models.DTO.LoginDTO'
+2024-09-18 10:24:54.725 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO'.
+2024-09-18 10:24:54.725 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO'.
+2024-09-18 10:24:54.725 +05:30 [DBG] Attempting to validate the bound parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO' ...
+2024-09-18 10:24:54.730 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO'.
+2024-09-18 10:24:54.794 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-18 10:24:54.801 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-18 10:24:54.801 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-18 10:24:54.801 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-18 10:24:54.802 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-18 10:24:54.803 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-18 10:24:54.845 +05:30 [INF] Executed action EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT) in 170.5795ms
+2024-09-18 10:24:54.846 +05:30 [INF] Executed endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)'
+2024-09-18 10:24:54.847 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44394/api/Auth/login application/json 41 - 200 - application/json;+charset=utf-8 304.4485ms
+2024-09-18 10:24:54.847 +05:30 [DBG] Connection ID "18302628887244308574" disconnecting.
+2024-09-18 10:25:32.115 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/Employee - -
+2024-09-18 10:25:32.116 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 10:25:32.118 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 10:25:32.122 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 10:25:32.122 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 10:25:32.153 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2024-09-18 10:25:32.155 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 10:25:32.168 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 10:25:32.171 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/Employee - - - 401 - - 55.8193ms
+2024-09-18 10:33:48.122 +05:30 [INF] Starting up the application...
+2024-09-18 10:33:50.231 +05:30 [DBG] Hosting starting
+2024-09-18 10:33:50.348 +05:30 [INF] User profile is available. Using 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 10:33:50.382 +05:30 [DBG] Reading data from file 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys\key-8c0d56e6-de24-4f0e-816f-6e9f88ea509c.xml'.
+2024-09-18 10:33:50.436 +05:30 [DBG] Found key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c}.
+2024-09-18 10:33:50.461 +05:30 [DBG] Considering key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} with expiration date 2024-12-01 09:06:49Z as default key.
+2024-09-18 10:33:50.481 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:33:50.487 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-18 10:33:50.489 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:33:50.496 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-18 10:33:50.500 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-18 10:33:50.503 +05:30 [DBG] Using key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} as the default key.
+2024-09-18 10:33:50.505 +05:30 [DBG] Key ring with default key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} was loaded during application startup.
+2024-09-18 10:33:50.885 +05:30 [DBG] Loaded hosting startup assembly EmployeeAPIJWT
+2024-09-18 10:33:50.886 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 10:33:50.886 +05:30 [INF] Hosting environment: Development
+2024-09-18 10:33:50.886 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\EmployeeAPIJWT\EmployeeAPIJWT
+2024-09-18 10:33:50.887 +05:30 [DBG] Hosting started
+2024-09-18 10:33:50.993 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - -
+2024-09-18 10:33:50.996 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-18 10:33:51.437 +05:30 [DBG] Connection ID "18230571310386249795" disconnecting.
+2024-09-18 10:33:51.449 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - - - 200 - text/html;charset=utf-8 460.2749ms
+2024-09-18 10:33:51.647 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - -
+2024-09-18 10:33:51.915 +05:30 [DBG] Connection ID "18230571314681217121" disconnecting.
+2024-09-18 10:33:51.915 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 267.3018ms
+2024-09-18 10:39:29.196 +05:30 [INF] Starting up the application...
+2024-09-18 10:39:31.328 +05:30 [DBG] Hosting starting
+2024-09-18 10:39:31.451 +05:30 [INF] User profile is available. Using 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 10:39:31.484 +05:30 [DBG] Reading data from file 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys\key-8c0d56e6-de24-4f0e-816f-6e9f88ea509c.xml'.
+2024-09-18 10:39:31.531 +05:30 [DBG] Found key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c}.
+2024-09-18 10:39:31.556 +05:30 [DBG] Considering key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} with expiration date 2024-12-01 09:06:49Z as default key.
+2024-09-18 10:39:31.581 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:39:31.588 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-18 10:39:31.591 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:39:31.600 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-18 10:39:31.608 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-18 10:39:31.617 +05:30 [DBG] Using key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} as the default key.
+2024-09-18 10:39:31.618 +05:30 [DBG] Key ring with default key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} was loaded during application startup.
+2024-09-18 10:39:32.015 +05:30 [DBG] Loaded hosting startup assembly EmployeeAPIJWT
+2024-09-18 10:39:32.016 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 10:39:32.016 +05:30 [INF] Hosting environment: Development
+2024-09-18 10:39:32.016 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\EmployeeAPIJWT\EmployeeAPIJWT
+2024-09-18 10:39:32.016 +05:30 [DBG] Hosting started
+2024-09-18 10:39:32.117 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - -
+2024-09-18 10:39:32.121 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-18 10:39:32.637 +05:30 [DBG] Connection ID "18158513720643289107" disconnecting.
+2024-09-18 10:39:32.653 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - - - 200 - text/html;charset=utf-8 544.0736ms
+2024-09-18 10:39:32.870 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - -
+2024-09-18 10:39:33.092 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 222.2854ms
+2024-09-18 10:39:33.092 +05:30 [DBG] Connection ID "18158513720643289109" disconnecting.
+2024-09-18 10:39:58.775 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/Employee - -
+2024-09-18 10:39:58.786 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 10:39:58.883 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 10:39:58.896 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 10:39:58.897 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 10:39:59.201 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2024-09-18 10:39:59.214 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 10:39:59.235 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 10:39:59.240 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/Employee - - - 401 - - 465.7308ms
+2024-09-18 10:59:48.844 +05:30 [INF] Starting up the application...
+2024-09-18 10:59:51.134 +05:30 [DBG] Hosting starting
+2024-09-18 10:59:51.282 +05:30 [INF] User profile is available. Using 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 10:59:51.318 +05:30 [DBG] Reading data from file 'C:\Users\kavitha_ippala\AppData\Local\ASP.NET\DataProtection-Keys\key-8c0d56e6-de24-4f0e-816f-6e9f88ea509c.xml'.
+2024-09-18 10:59:51.382 +05:30 [DBG] Found key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c}.
+2024-09-18 10:59:51.411 +05:30 [DBG] Considering key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} with expiration date 2024-12-01 09:06:49Z as default key.
+2024-09-18 10:59:51.432 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:59:51.439 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-18 10:59:51.442 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 10:59:51.450 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-18 10:59:51.459 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-18 10:59:51.465 +05:30 [DBG] Using key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} as the default key.
+2024-09-18 10:59:51.466 +05:30 [DBG] Key ring with default key {8c0d56e6-de24-4f0e-816f-6e9f88ea509c} was loaded during application startup.
+2024-09-18 10:59:51.918 +05:30 [DBG] Loaded hosting startup assembly EmployeeAPIJWT
+2024-09-18 10:59:51.919 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 10:59:51.920 +05:30 [INF] Hosting environment: Development
+2024-09-18 10:59:51.920 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\EmployeeAPIJWT\EmployeeAPIJWT
+2024-09-18 10:59:51.921 +05:30 [DBG] Hosting started
+2024-09-18 10:59:52.047 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - -
+2024-09-18 10:59:52.052 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-18 10:59:52.517 +05:30 [DBG] Connection ID "17942340934234538054" disconnecting.
+2024-09-18 10:59:52.528 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - - - 200 - text/html;charset=utf-8 487.2654ms
+2024-09-18 10:59:52.691 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - -
+2024-09-18 10:59:52.880 +05:30 [DBG] Connection ID "18302628887244308576" disconnecting.
+2024-09-18 10:59:52.880 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.5608ms
+2024-09-18 11:00:21.765 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44394/api/Auth/login application/json 41
+2024-09-18 11:00:21.769 +05:30 [DBG] POST requests are not supported
+2024-09-18 11:00:21.861 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Auth/login'
+2024-09-18 11:00:21.872 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'
+2024-09-18 11:00:21.874 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)'
+2024-09-18 11:00:22.116 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-18 11:00:22.123 +05:30 [INF] Executing endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)'
+2024-09-18 11:00:22.149 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-18 11:00:22.254 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EmployeeAPIJWT.Models.DTO.LoginDTO) on controller EmployeeAPIJWT.Controllers.AuthController (EmployeeAPIJWT).
+2024-09-18 11:00:22.257 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-18 11:00:22.257 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-18 11:00:22.258 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-18 11:00:22.258 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-18 11:00:22.259 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-18 11:00:22.262 +05:30 [DBG] Executing controller factory for controller EmployeeAPIJWT.Controllers.AuthController (EmployeeAPIJWT)
+2024-09-18 11:00:22.263 +05:30 [DBG] Executed controller factory for controller EmployeeAPIJWT.Controllers.AuthController (EmployeeAPIJWT)
+2024-09-18 11:00:22.276 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO' ...
+2024-09-18 11:00:22.282 +05:30 [DBG] Attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO' using the name '' in request data ...
+2024-09-18 11:00:22.284 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-18 11:00:22.349 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'EmployeeAPIJWT.Models.DTO.LoginDTO'
+2024-09-18 11:00:22.350 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO'.
+2024-09-18 11:00:22.350 +05:30 [DBG] Done attempting to bind parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO'.
+2024-09-18 11:00:22.350 +05:30 [DBG] Attempting to validate the bound parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO' ...
+2024-09-18 11:00:22.359 +05:30 [DBG] Done attempting to validate the bound parameter 'loginDTO' of type 'EmployeeAPIJWT.Models.DTO.LoginDTO'.
+2024-09-18 11:00:22.431 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-18 11:00:22.435 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-18 11:00:22.435 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-18 11:00:22.435 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-18 11:00:22.437 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-18 11:00:22.438 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-18 11:00:22.488 +05:30 [INF] Executed action EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT) in 215.2241ms
+2024-09-18 11:00:22.490 +05:30 [INF] Executed endpoint 'EmployeeAPIJWT.Controllers.AuthController.Login (EmployeeAPIJWT)'
+2024-09-18 11:00:22.491 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44394/api/Auth/login application/json 41 - 200 - application/json;+charset=utf-8 726.3178ms
+2024-09-18 11:00:22.491 +05:30 [DBG] Connection ID "18302628895834243140" disconnecting.
+2024-09-18 11:01:23.814 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/Employee - -
+2024-09-18 11:01:23.823 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 11:01:23.828 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 11:01:23.829 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 11:01:23.829 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:01:23.880 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2024-09-18 11:01:23.891 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 11:01:23.915 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 11:01:23.919 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/Employee - - - 401 - - 104.3117ms
+2024-09-18 11:03:40.790 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/api/Employee - -
+2024-09-18 11:03:40.821 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 11:03:40.822 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 11:03:40.822 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 11:03:40.822 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:03:40.824 +05:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-09-18 11:03:40.825 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 11:03:40.828 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 11:03:40.844 +05:30 [DBG] Connection ID "18230571293206380721" disconnecting.
+2024-09-18 11:03:40.846 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/api/Employee - - - 401 - - 54.0394ms
+2024-09-18 11:05:28.048 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/api/Employee - -
+2024-09-18 11:05:28.048 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 11:05:28.049 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 11:05:28.049 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 11:05:28.049 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:05:28.157 +05:30 [INF] Successfully validated the token.
+2024-09-18 11:05:28.158 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-18 11:05:28.160 +05:30 [INF] Authorization was successful.
+2024-09-18 11:05:28.161 +05:30 [INF] Executing endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:05:28.179 +05:30 [INF] Route matched with {action = "GetAllEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees() on controller EmployeeAPIJWT.Controllers.EmployeeController (EmployeeAPIJWT).
+2024-09-18 11:05:28.180 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-18 11:05:28.180 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-18 11:05:28.180 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-18 11:05:28.180 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-18 11:05:28.180 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-18 11:05:28.180 +05:30 [DBG] Executing controller factory for controller EmployeeAPIJWT.Controllers.EmployeeController (EmployeeAPIJWT)
+2024-09-18 11:05:28.713 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-18 11:05:29.023 +05:30 [DBG] Executed controller factory for controller EmployeeAPIJWT.Controllers.EmployeeController (EmployeeAPIJWT)
+2024-09-18 11:05:30.168 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'EmployeeJWTDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-18 11:05:30.350 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()'
+2024-09-18 11:05:30.697 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Email (string), 1], [Property: Employee.MobileNumber (string), 2], [Property: Employee.Name (string), 3], [Property: Employee.Password (string), 4], [Property: Employee.Salary (int) Required, 5], }
+        SELECT e.Id, e.Email, e.MobileNumber, e.Name, e.Password, e.Salary
+        FROM Employees AS e), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeAPIJWT.Data.EmployeeJWTDbContext, 
+    False, 
+    False
+)'
+2024-09-18 11:05:30.776 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-18 11:05:30.882 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (96ms).
+2024-09-18 11:05:30.900 +05:30 [DBG] Opening connection to database 'EmpJWTDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-18 11:05:33.801 +05:30 [DBG] Opened connection to database 'EmpJWTDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-18 11:05:33.826 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+2024-09-18 11:05:33.968 +05:30 [INF] Executed DbCommand (135ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+2024-09-18 11:05:34.052 +05:30 [DBG] Context 'EmployeeJWTDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-18 11:05:34.118 +05:30 [DBG] Context 'EmployeeJWTDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-18 11:05:34.127 +05:30 [DBG] A data reader was disposed.
+2024-09-18 11:05:34.133 +05:30 [DBG] Closing connection to database 'EmpJWTDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-18 11:05:34.146 +05:30 [DBG] Closed connection to database 'EmpJWTDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-18 11:05:34.206 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-18 11:05:34.206 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-18 11:05:34.207 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-18 11:05:34.207 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-18 11:05:34.207 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-18 11:05:34.207 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeAPIJWT.Models.DTO.EmployeeDTO, EmployeeAPIJWT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-18 11:05:34.225 +05:30 [INF] Executed action EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT) in 6044.8223ms
+2024-09-18 11:05:34.227 +05:30 [INF] Executed endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:05:34.233 +05:30 [DBG] Connection ID "18230571306091282474" disconnecting.
+2024-09-18 11:05:34.238 +05:30 [DBG] 'EmployeeJWTDbContext' disposed.
+2024-09-18 11:05:34.246 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/api/Employee - - - 200 - application/json;+charset=utf-8 6198.3861ms
+2024-09-18 11:07:25.340 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/Employee - -
+2024-09-18 11:07:25.341 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 11:07:25.341 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 11:07:25.341 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 11:07:25.341 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:07:25.341 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2024-09-18 11:07:25.342 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 11:07:25.342 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 11:07:25.345 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/Employee - - - 401 - - 4.3110ms
+2024-09-18 11:07:31.319 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/Employee - -
+2024-09-18 11:07:31.319 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 11:07:31.320 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 11:07:31.320 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 11:07:31.320 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:07:31.320 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2024-09-18 11:07:31.320 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 11:07:31.320 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 11:07:31.342 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/Employee - - - 401 - - 19.5967ms
+2024-09-18 11:07:40.336 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/Employee - -
+2024-09-18 11:07:40.337 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 11:07:40.337 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 11:07:40.337 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 11:07:40.337 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:07:40.337 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2024-09-18 11:07:40.337 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 11:07:40.337 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 11:07:40.342 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/Employee - - - 401 - - 4.4878ms
+2024-09-18 11:08:06.028 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44394/api/Employee/f452b741-c1c3-4ede-9e54-73ff1f547e81 - -
+2024-09-18 11:08:06.029 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 11:08:06.029 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee/f452b741-c1c3-4ede-9e54-73ff1f547e81'
+2024-09-18 11:08:06.030 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIJWT)' with route pattern 'api/Employee/{id:Guid}' is valid for the request path '/api/Employee/f452b741-c1c3-4ede-9e54-73ff1f547e81'
+2024-09-18 11:08:06.031 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIJWT)'
+2024-09-18 11:08:06.035 +05:30 [INF] Successfully validated the token.
+2024-09-18 11:08:06.035 +05:30 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2024-09-18 11:08:06.036 +05:30 [INF] Authorization was successful.
+2024-09-18 11:08:06.036 +05:30 [INF] Executing endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIJWT)'
+2024-09-18 11:08:06.051 +05:30 [INF] Route matched with {action = "GetEmployeeById", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeeById(System.Guid) on controller EmployeeAPIJWT.Controllers.EmployeeController (EmployeeAPIJWT).
+2024-09-18 11:08:06.051 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-18 11:08:06.051 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-18 11:08:06.052 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-18 11:08:06.052 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-18 11:08:06.052 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-18 11:08:06.052 +05:30 [DBG] Executing controller factory for controller EmployeeAPIJWT.Controllers.EmployeeController (EmployeeAPIJWT)
+2024-09-18 11:08:06.053 +05:30 [DBG] Executed controller factory for controller EmployeeAPIJWT.Controllers.EmployeeController (EmployeeAPIJWT)
+2024-09-18 11:08:06.054 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-09-18 11:08:06.063 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-09-18 11:08:06.065 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-18 11:08:06.065 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-18 11:08:06.065 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-09-18 11:08:06.066 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-09-18 11:08:06.151 +05:30 [INF] Entity Framework Core 5.0.17 initialized 'EmployeeJWTDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-18 11:08:06.191 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .FirstOrDefault(e => object.Equals(
+        objA: EF.Property<object>(e, "Id"), 
+        objB: (object)__get_Item_0))'
+2024-09-18 11:08:06.366 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Employee>(
+    asyncEnumerable: new SingleQueryingEnumerable<Employee>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Email (string), 1], [Property: Employee.MobileNumber (string), 2], [Property: Employee.Name (string), 3], [Property: Employee.Password (string), 4], [Property: Employee.Salary (int) Required, 5], }
+            SELECT TOP(1) e.Id, e.Email, e.MobileNumber, e.Name, e.Password, e.Salary
+            FROM Employees AS e
+            WHERE e.Id == @__get_Item_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+        EmployeeAPIJWT.Data.EmployeeJWTDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-18 11:08:06.381 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-18 11:08:06.382 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-18 11:08:06.389 +05:30 [DBG] Opening connection to database 'EmpJWTDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-18 11:08:06.390 +05:30 [DBG] Opened connection to database 'EmpJWTDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-18 11:08:06.400 +05:30 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-18 11:08:06.451 +05:30 [INF] Executed DbCommand (60ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-18 11:08:06.453 +05:30 [DBG] Context 'EmployeeJWTDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-18 11:08:06.459 +05:30 [DBG] A data reader was disposed.
+2024-09-18 11:08:06.459 +05:30 [DBG] Closing connection to database 'EmpJWTDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-18 11:08:06.459 +05:30 [DBG] Closed connection to database 'EmpJWTDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-18 11:08:06.466 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-18 11:08:06.467 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-18 11:08:06.467 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-18 11:08:06.467 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-18 11:08:06.467 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-18 11:08:06.467 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeAPIJWT.Models.DTO.EmployeeDTO'.
+2024-09-18 11:08:06.468 +05:30 [INF] Executed action EmployeeAPIJWT.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIJWT) in 416.2018ms
+2024-09-18 11:08:06.468 +05:30 [INF] Executed endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIJWT)'
+2024-09-18 11:08:06.469 +05:30 [DBG] 'EmployeeJWTDbContext' disposed.
+2024-09-18 11:08:06.469 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44394/api/Employee/f452b741-c1c3-4ede-9e54-73ff1f547e81 - - - 200 - application/json;+charset=utf-8 440.6503ms
+2024-09-18 11:08:17.482 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/Employee - -
+2024-09-18 11:08:17.482 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 11:08:17.482 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 11:08:17.483 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 11:08:17.483 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:08:17.483 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2024-09-18 11:08:17.483 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 11:08:17.483 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 11:08:17.487 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/Employee - - - 401 - - 5.2305ms
+2024-09-18 11:09:06.690 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/Employee - -
+2024-09-18 11:09:06.691 +05:30 [DBG] The request path  does not match the path filter
+2024-09-18 11:09:06.691 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-18 11:09:06.691 +05:30 [DBG] Endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-18 11:09:06.691 +05:30 [DBG] Request matched endpoint 'EmployeeAPIJWT.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIJWT)'
+2024-09-18 11:09:06.691 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2024-09-18 11:09:06.692 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-18 11:09:06.692 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-18 11:09:06.695 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/Employee - - - 401 - - 5.0478ms

@@ -1,0 +1,197 @@
+2024-09-17 11:57:35.839 +05:30 [INF] Starting up the application...
+2024-09-17 11:57:37.974 +05:30 [DBG] Hosting starting
+2024-09-17 11:57:38.110 +05:30 [INF] Configuring the application in Development mode.
+2024-09-17 11:57:38.116 +05:30 [INF] Development environment: Swagger UI enabled.
+2024-09-17 11:57:38.417 +05:30 [INF] Application startup complete.
+2024-09-17 11:57:38.645 +05:30 [DBG] Loaded hosting startup assembly BrandAPI_MapLog
+2024-09-17 11:57:38.646 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-17 11:57:38.646 +05:30 [INF] Hosting environment: Development
+2024-09-17 11:57:38.665 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\BrandAPI_MapLog\BrandAPI_MapLog
+2024-09-17 11:57:38.665 +05:30 [DBG] Hosting started
+2024-09-17 11:57:38.765 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/index.html - -
+2024-09-17 11:57:38.783 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-17 11:57:39.271 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/index.html - - - 200 - text/html;charset=utf-8 511.7913ms
+2024-09-17 11:57:39.278 +05:30 [DBG] Connection ID "18230571318976184437" disconnecting.
+2024-09-17 11:57:39.656 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - -
+2024-09-17 11:57:39.880 +05:30 [DBG] Connection ID "18086456105130524772" disconnecting.
+2024-09-17 11:57:39.880 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44316/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.2973ms
+2024-09-17 11:57:44.978 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44316/api/Brand - -
+2024-09-17 11:57:44.986 +05:30 [DBG] The request path  does not match the path filter
+2024-09-17 11:57:45.095 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Brand'
+2024-09-17 11:57:45.116 +05:30 [DBG] Endpoint 'BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog)' with route pattern 'api/Brand' is valid for the request path '/api/Brand'
+2024-09-17 11:57:45.119 +05:30 [DBG] Request matched endpoint 'BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog)'
+2024-09-17 11:57:45.124 +05:30 [INF] Executing endpoint 'BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog)'
+2024-09-17 11:57:45.152 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-17 11:57:45.219 +05:30 [INF] Route matched with {action = "GetAllBrands", controller = "Brand"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllBrands() on controller BrandAPI_MapLog.Controllers.BrandController (BrandAPI_MapLog).
+2024-09-17 11:57:45.232 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 11:57:45.232 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 11:57:45.233 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 11:57:45.233 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 11:57:45.234 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 11:57:45.236 +05:30 [DBG] Executing controller factory for controller BrandAPI_MapLog.Controllers.BrandController (BrandAPI_MapLog)
+2024-09-17 11:57:45.558 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-17 11:57:45.867 +05:30 [DBG] Executed controller factory for controller BrandAPI_MapLog.Controllers.BrandController (BrandAPI_MapLog)
+2024-09-17 11:57:45.869 +05:30 [INF] Fetching all brands from the database.
+2024-09-17 11:57:47.034 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'BrandDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 11:57:47.251 +05:30 [DBG] Compiling query expression: 
+'DbSet<Brand>()'
+2024-09-17 11:57:47.535 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Brand>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Brand.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Brand.Model (string), 1], [Property: Brand.Name (string), 2], }
+        SELECT b.Id, b.Model, b.Name
+        FROM Brands AS b), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Brand>, 
+    BrandWebAPI.Models.BrandDbContext, 
+    False, 
+    False
+)'
+2024-09-17 11:57:47.619 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 11:57:47.759 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (137ms).
+2024-09-17 11:57:47.768 +05:30 [DBG] Opening connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:57:48.569 +05:30 [DBG] Opened connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:57:48.586 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Model], [b].[Name]
+FROM [Brands] AS [b]
+2024-09-17 11:57:48.664 +05:30 [INF] Executed DbCommand (77ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Model], [b].[Name]
+FROM [Brands] AS [b]
+2024-09-17 11:57:48.706 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:57:48.764 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:57:48.764 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:57:48.764 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:57:48.764 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:57:48.772 +05:30 [DBG] A data reader was disposed.
+2024-09-17 11:57:48.777 +05:30 [DBG] Closing connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:57:48.787 +05:30 [DBG] Closed connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:57:48.836 +05:30 [INF] Successfully fetched 5 brands.
+2024-09-17 11:57:48.840 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 11:57:48.844 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 11:57:48.845 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 11:57:48.845 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 11:57:48.847 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-17 11:57:48.847 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BrandAPI_MapLog.DTO.BrandDTO, BrandAPI_MapLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-17 11:57:48.886 +05:30 [INF] Executed action BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog) in 3638.6872ms
+2024-09-17 11:57:48.887 +05:30 [INF] Executed endpoint 'BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog)'
+2024-09-17 11:57:48.891 +05:30 [DBG] Connection ID "18230571318976184439" disconnecting.
+2024-09-17 11:57:48.894 +05:30 [DBG] 'BrandDbContext' disposed.
+2024-09-17 11:57:48.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44316/api/Brand - - - 200 - application/json;+charset=utf-8 3932.4828ms
+2024-09-17 11:58:13.882 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44316/api/Brand application/json 36
+2024-09-17 11:58:13.883 +05:30 [DBG] POST requests are not supported
+2024-09-17 11:58:13.885 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Brand'
+2024-09-17 11:58:13.885 +05:30 [DBG] Endpoint 'BrandAPI_MapLog.Controllers.BrandController.AddBrand (BrandAPI_MapLog)' with route pattern 'api/Brand' is valid for the request path '/api/Brand'
+2024-09-17 11:58:13.885 +05:30 [DBG] Request matched endpoint 'BrandAPI_MapLog.Controllers.BrandController.AddBrand (BrandAPI_MapLog)'
+2024-09-17 11:58:13.885 +05:30 [INF] Executing endpoint 'BrandAPI_MapLog.Controllers.BrandController.AddBrand (BrandAPI_MapLog)'
+2024-09-17 11:58:13.913 +05:30 [INF] Route matched with {action = "AddBrand", controller = "Brand"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddBrand(BrandWebAPI.Models.AddDTO) on controller BrandAPI_MapLog.Controllers.BrandController (BrandAPI_MapLog).
+2024-09-17 11:58:13.914 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 11:58:13.914 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 11:58:13.914 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 11:58:13.914 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 11:58:13.914 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 11:58:13.914 +05:30 [DBG] Executing controller factory for controller BrandAPI_MapLog.Controllers.BrandController (BrandAPI_MapLog)
+2024-09-17 11:58:13.915 +05:30 [DBG] Executed controller factory for controller BrandAPI_MapLog.Controllers.BrandController (BrandAPI_MapLog)
+2024-09-17 11:58:13.934 +05:30 [DBG] Attempting to bind parameter 'addDTO' of type 'BrandWebAPI.Models.AddDTO' ...
+2024-09-17 11:58:13.938 +05:30 [DBG] Attempting to bind parameter 'addDTO' of type 'BrandWebAPI.Models.AddDTO' using the name '' in request data ...
+2024-09-17 11:58:13.940 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-17 11:58:13.990 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'BrandWebAPI.Models.AddDTO'
+2024-09-17 11:58:13.991 +05:30 [DBG] Done attempting to bind parameter 'addDTO' of type 'BrandWebAPI.Models.AddDTO'.
+2024-09-17 11:58:13.992 +05:30 [DBG] Done attempting to bind parameter 'addDTO' of type 'BrandWebAPI.Models.AddDTO'.
+2024-09-17 11:58:13.992 +05:30 [DBG] Attempting to validate the bound parameter 'addDTO' of type 'BrandWebAPI.Models.AddDTO' ...
+2024-09-17 11:58:13.997 +05:30 [DBG] Done attempting to validate the bound parameter 'addDTO' of type 'BrandWebAPI.Models.AddDTO'.
+2024-09-17 11:58:14.001 +05:30 [INF] Adding a new brand with name string5.
+2024-09-17 11:58:14.091 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'BrandDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 11:58:14.133 +05:30 [DBG] 'BrandDbContext' generated a temporary value for the property 'Id.Brand'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:58:14.151 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:58:14.154 +05:30 [DBG] SaveChanges starting for 'BrandDbContext'.
+2024-09-17 11:58:14.158 +05:30 [DBG] DetectChanges starting for 'BrandDbContext'.
+2024-09-17 11:58:14.171 +05:30 [DBG] DetectChanges completed for 'BrandDbContext'.
+2024-09-17 11:58:14.189 +05:30 [DBG] Opening connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:58:14.191 +05:30 [DBG] Opened connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:58:14.194 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-17 11:58:14.209 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-09-17 11:58:14.307 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 11:58:14.307 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 11:58:14.324 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Brands] ([Model], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Brands]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-09-17 11:58:14.391 +05:30 [INF] Executed DbCommand (76ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Brands] ([Model], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [Brands]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-09-17 11:58:14.419 +05:30 [DBG] The foreign key property 'Brand.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-09-17 11:58:14.431 +05:30 [DBG] A data reader was disposed.
+2024-09-17 11:58:14.434 +05:30 [DBG] Committing transaction.
+2024-09-17 11:58:14.449 +05:30 [DBG] Committed transaction.
+2024-09-17 11:58:14.450 +05:30 [DBG] Closing connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:58:14.450 +05:30 [DBG] Closed connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:58:14.453 +05:30 [DBG] Disposing transaction.
+2024-09-17 11:58:14.479 +05:30 [DBG] An entity of type 'Brand' tracked by 'BrandDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:58:14.482 +05:30 [DBG] SaveChanges completed for 'BrandDbContext' with 1 entities written to the database.
+2024-09-17 11:58:14.484 +05:30 [INF] Successfully added a new brand with id 6.
+2024-09-17 11:58:14.484 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 11:58:14.485 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 11:58:14.485 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 11:58:14.485 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 11:58:14.485 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-17 11:58:14.485 +05:30 [INF] Executing OkObjectResult, writing value of type 'BrandAPI_MapLog.DTO.BrandDTO'.
+2024-09-17 11:58:14.486 +05:30 [INF] Executed action BrandAPI_MapLog.Controllers.BrandController.AddBrand (BrandAPI_MapLog) in 572.2346ms
+2024-09-17 11:58:14.487 +05:30 [INF] Executed endpoint 'BrandAPI_MapLog.Controllers.BrandController.AddBrand (BrandAPI_MapLog)'
+2024-09-17 11:58:14.487 +05:30 [DBG] 'BrandDbContext' disposed.
+2024-09-17 11:58:14.488 +05:30 [DBG] Connection ID "18014398523977498708" disconnecting.
+2024-09-17 11:58:14.488 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44316/api/Brand application/json 36 - 200 - application/json;+charset=utf-8 605.4968ms
+2024-09-17 11:58:18.215 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44316/api/Brand - -
+2024-09-17 11:58:18.216 +05:30 [DBG] The request path  does not match the path filter
+2024-09-17 11:58:18.216 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Brand'
+2024-09-17 11:58:18.216 +05:30 [DBG] Endpoint 'BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog)' with route pattern 'api/Brand' is valid for the request path '/api/Brand'
+2024-09-17 11:58:18.217 +05:30 [DBG] Request matched endpoint 'BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog)'
+2024-09-17 11:58:18.217 +05:30 [INF] Executing endpoint 'BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog)'
+2024-09-17 11:58:18.217 +05:30 [INF] Route matched with {action = "GetAllBrands", controller = "Brand"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllBrands() on controller BrandAPI_MapLog.Controllers.BrandController (BrandAPI_MapLog).
+2024-09-17 11:58:18.218 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 11:58:18.218 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 11:58:18.218 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 11:58:18.218 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 11:58:18.218 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 11:58:18.219 +05:30 [DBG] Executing controller factory for controller BrandAPI_MapLog.Controllers.BrandController (BrandAPI_MapLog)
+2024-09-17 11:58:18.227 +05:30 [DBG] Executed controller factory for controller BrandAPI_MapLog.Controllers.BrandController (BrandAPI_MapLog)
+2024-09-17 11:58:18.227 +05:30 [INF] Fetching all brands from the database.
+2024-09-17 11:58:18.248 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'BrandDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 11:58:18.251 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 11:58:18.251 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 11:58:18.251 +05:30 [DBG] Opening connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:58:18.252 +05:30 [DBG] Opened connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:58:18.252 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Model], [b].[Name]
+FROM [Brands] AS [b]
+2024-09-17 11:58:18.254 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Model], [b].[Name]
+FROM [Brands] AS [b]
+2024-09-17 11:58:18.254 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:58:18.254 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:58:18.255 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:58:18.255 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:58:18.255 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:58:18.255 +05:30 [DBG] Context 'BrandDbContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 11:58:18.255 +05:30 [DBG] A data reader was disposed.
+2024-09-17 11:58:18.256 +05:30 [DBG] Closing connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:58:18.256 +05:30 [DBG] Closed connection to database 'BrandMapLogDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 11:58:18.256 +05:30 [INF] Successfully fetched 6 brands.
+2024-09-17 11:58:18.256 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 11:58:18.256 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 11:58:18.256 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 11:58:18.256 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 11:58:18.257 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-17 11:58:18.257 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BrandAPI_MapLog.DTO.BrandDTO, BrandAPI_MapLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-17 11:58:18.258 +05:30 [INF] Executed action BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog) in 39.5347ms
+2024-09-17 11:58:18.258 +05:30 [INF] Executed endpoint 'BrandAPI_MapLog.Controllers.BrandController.GetAllBrands (BrandAPI_MapLog)'
+2024-09-17 11:58:18.259 +05:30 [DBG] 'BrandDbContext' disposed.
+2024-09-17 11:58:18.259 +05:30 [DBG] Connection ID "18302628908719145077" disconnecting.
+2024-09-17 11:58:18.260 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44316/api/Brand - - - 200 - application/json;+charset=utf-8 44.4276ms

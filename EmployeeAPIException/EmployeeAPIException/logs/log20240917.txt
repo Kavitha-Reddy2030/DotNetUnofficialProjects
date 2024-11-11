@@ -1,0 +1,674 @@
+2024-09-17 13:03:13.379 +05:30 [INF] Starting up the application...
+2024-09-17 13:03:14.283 +05:30 [DBG] Hosting starting
+2024-09-17 13:03:14.744 +05:30 [DBG] Loaded hosting startup assembly EmployeeAPIException
+2024-09-17 13:03:14.747 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-17 13:03:14.747 +05:30 [INF] Hosting environment: Development
+2024-09-17 13:03:14.747 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\EmployeeAPIException\EmployeeAPIException
+2024-09-17 13:03:14.758 +05:30 [DBG] Hosting started
+2024-09-17 13:03:14.794 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger - -
+2024-09-17 13:03:14.800 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-17 13:03:14.887 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2024-09-17 13:03:14.891 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger - - - 301 - - 99.7720ms
+2024-09-17 13:03:14.911 +05:30 [DBG] Connection ID "18230571293206380703" disconnecting.
+2024-09-17 13:03:15.049 +05:30 [DBG] Connection ID "18230571293206380705" disconnecting.
+2024-09-17 13:03:15.049 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 162.2029ms
+2024-09-17 13:03:15.077 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/swagger-ui.css - -
+2024-09-17 13:03:15.091 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/swagger-ui-standalone-preset.js - -
+2024-09-17 13:03:15.091 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/swagger-ui-bundle.js - -
+2024-09-17 13:03:15.113 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-17 13:03:15.113 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-17 13:03:15.113 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-17 13:03:15.115 +05:30 [DBG] Connection ID "18014398523977498710" disconnecting.
+2024-09-17 13:03:15.115 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/swagger-ui.css - - - 200 142933 text/css 37.7326ms
+2024-09-17 13:03:15.118 +05:30 [DBG] Connection ID "18230571314681217115" disconnecting.
+2024-09-17 13:03:15.119 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 27.4698ms
+2024-09-17 13:03:15.129 +05:30 [DBG] Connection ID "18302628908719145079" disconnecting.
+2024-09-17 13:03:15.129 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 37.5654ms
+2024-09-17 13:03:15.222 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2024-09-17 13:03:15.243 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - -
+2024-09-17 13:03:15.244 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-09-17 13:03:15.244 +05:30 [DBG] Connection ID "18302628908719145081" disconnecting.
+2024-09-17 13:03:15.244 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/favicon-32x32.png - - - 200 628 image/png 1.4551ms
+2024-09-17 13:03:15.287 +05:30 [DBG] Connection ID "17942340934234538031" disconnecting.
+2024-09-17 13:03:15.287 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 65.5299ms
+2024-09-17 13:03:22.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Employee - -
+2024-09-17 13:03:22.158 +05:30 [DBG] The request path  does not match the path filter
+2024-09-17 13:03:22.212 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-17 13:03:22.217 +05:30 [DBG] Endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-17 13:03:22.218 +05:30 [DBG] Request matched endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException)'
+2024-09-17 13:03:22.220 +05:30 [INF] Executing endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException)'
+2024-09-17 13:03:22.229 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-17 13:03:22.260 +05:30 [INF] Route matched with {action = "GetAllEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees() on controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException).
+2024-09-17 13:03:22.261 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 13:03:22.261 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 13:03:22.262 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 13:03:22.262 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 13:03:22.262 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 13:03:22.263 +05:30 [DBG] Executing controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 13:03:22.400 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-17 13:03:22.487 +05:30 [DBG] Executed controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 13:03:23.146 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 13:03:23.218 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()'
+2024-09-17 13:03:23.354 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Email (string), 1], [Property: Employee.MobileNumber (string), 2], [Property: Employee.Name (string), 3], [Property: Employee.Password (string), 4], [Property: Employee.Salary (int) Required, 5], }
+        SELECT e.Id, e.Email, e.MobileNumber, e.Name, e.Password, e.Salary
+        FROM Employees AS e), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeAPIException.Data.EmployeeDbContext, 
+    False, 
+    False
+)'
+2024-09-17 13:03:23.408 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 13:03:23.496 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (81ms).
+2024-09-17 13:03:23.503 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:23.901 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:23.918 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+2024-09-17 13:03:23.958 +05:30 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+2024-09-17 13:03:23.991 +05:30 [DBG] Context 'EmployeeDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 13:03:24.036 +05:30 [DBG] Context 'EmployeeDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 13:03:24.040 +05:30 [DBG] A data reader was disposed.
+2024-09-17 13:03:24.043 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:24.050 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:24.073 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 13:03:24.074 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 13:03:24.074 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 13:03:24.074 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 13:03:24.075 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-17 13:03:24.075 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeAPIException.Models.DTO.EmployeeDTO, EmployeeAPIException, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-17 13:03:24.108 +05:30 [INF] Executed action EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException) in 1838.0031ms
+2024-09-17 13:03:24.111 +05:30 [INF] Executed endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException)'
+2024-09-17 13:03:24.112 +05:30 [DBG] Connection ID "18158513729233223717" disconnecting.
+2024-09-17 13:03:24.113 +05:30 [DBG] 'EmployeeDbContext' disposed.
+2024-09-17 13:03:24.115 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Employee - - - 200 - application/json;+charset=utf-8 1958.4679ms
+2024-09-17 13:03:38.252 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Employee/38dec2ee-1518-4e24-b0a9-89daa1146b64 - -
+2024-09-17 13:03:38.252 +05:30 [DBG] The request path  does not match the path filter
+2024-09-17 13:03:38.253 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee/38dec2ee-1518-4e24-b0a9-89daa1146b64'
+2024-09-17 13:03:38.254 +05:30 [DBG] Endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)' with route pattern 'api/Employee/{id:Guid}' is valid for the request path '/api/Employee/38dec2ee-1518-4e24-b0a9-89daa1146b64'
+2024-09-17 13:03:38.254 +05:30 [DBG] Request matched endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 13:03:38.255 +05:30 [INF] Executing endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 13:03:38.269 +05:30 [INF] Route matched with {action = "GetEmployeeById", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeeById(System.Guid) on controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException).
+2024-09-17 13:03:38.269 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 13:03:38.270 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 13:03:38.270 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 13:03:38.270 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 13:03:38.270 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 13:03:38.270 +05:30 [DBG] Executing controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 13:03:38.270 +05:30 [DBG] Executed controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 13:03:38.277 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-09-17 13:03:38.278 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-09-17 13:03:38.279 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 13:03:38.279 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 13:03:38.279 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-09-17 13:03:38.280 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-09-17 13:03:38.321 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 13:03:38.332 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .FirstOrDefault(e => object.Equals(
+        objA: EF.Property<object>(e, "Id"), 
+        objB: (object)__get_Item_0))'
+2024-09-17 13:03:38.394 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Employee>(
+    asyncEnumerable: new SingleQueryingEnumerable<Employee>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Email (string), 1], [Property: Employee.MobileNumber (string), 2], [Property: Employee.Name (string), 3], [Property: Employee.Password (string), 4], [Property: Employee.Salary (int) Required, 5], }
+            SELECT TOP(1) e.Id, e.Email, e.MobileNumber, e.Name, e.Password, e.Salary
+            FROM Employees AS e
+            WHERE e.Id == @__get_Item_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+        EmployeeAPIException.Data.EmployeeDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-17 13:03:38.402 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 13:03:38.402 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 13:03:38.406 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:38.407 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:38.409 +05:30 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 13:03:38.428 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 13:03:38.429 +05:30 [DBG] Context 'EmployeeDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 13:03:38.431 +05:30 [DBG] A data reader was disposed.
+2024-09-17 13:03:38.431 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:38.431 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:38.433 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 13:03:38.433 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 13:03:38.433 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 13:03:38.433 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 13:03:38.433 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-17 13:03:38.433 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeAPIException.Models.DTO.EmployeeDTO'.
+2024-09-17 13:03:38.434 +05:30 [INF] Executed action EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException) in 163.9126ms
+2024-09-17 13:03:38.434 +05:30 [INF] Executed endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 13:03:38.434 +05:30 [DBG] Connection ID "18158513729233223719" disconnecting.
+2024-09-17 13:03:38.434 +05:30 [DBG] 'EmployeeDbContext' disposed.
+2024-09-17 13:03:38.434 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Employee/38dec2ee-1518-4e24-b0a9-89daa1146b64 - - - 200 - application/json;+charset=utf-8 182.6868ms
+2024-09-17 13:03:43.713 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Employee/38dec2ee-1518-4e24-b0a9-89daa1146b65 - -
+2024-09-17 13:03:43.713 +05:30 [DBG] The request path  does not match the path filter
+2024-09-17 13:03:43.713 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee/38dec2ee-1518-4e24-b0a9-89daa1146b65'
+2024-09-17 13:03:43.713 +05:30 [DBG] Endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)' with route pattern 'api/Employee/{id:Guid}' is valid for the request path '/api/Employee/38dec2ee-1518-4e24-b0a9-89daa1146b65'
+2024-09-17 13:03:43.713 +05:30 [DBG] Request matched endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 13:03:43.714 +05:30 [INF] Executing endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 13:03:43.714 +05:30 [INF] Route matched with {action = "GetEmployeeById", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeeById(System.Guid) on controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException).
+2024-09-17 13:03:43.714 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 13:03:43.714 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 13:03:43.714 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 13:03:43.714 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 13:03:43.714 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 13:03:43.714 +05:30 [DBG] Executing controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 13:03:43.716 +05:30 [DBG] Executed controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 13:03:43.717 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-09-17 13:03:43.717 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-09-17 13:03:43.717 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 13:03:43.717 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 13:03:43.717 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-09-17 13:03:43.717 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-09-17 13:03:43.724 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 13:03:43.727 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 13:03:43.727 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 13:03:43.727 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:43.727 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:43.727 +05:30 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 13:03:43.729 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 13:03:43.729 +05:30 [DBG] A data reader was disposed.
+2024-09-17 13:03:43.730 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:43.730 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 13:03:43.869 +05:30 [INF] Executed action EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException) in 154.5744ms
+2024-09-17 13:03:43.869 +05:30 [INF] Executed endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 13:03:43.871 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+EmployeeAPIException.Middleware.EmployeeNotFoundException: Employee with ID '38dec2ee-1518-4e24-b0a9-89daa1146b65' was not found.
+   at EmployeeAPIException.Repository.EmployeeRepository.GetEmployeeByIdAsync(Guid id) in C:\DotNETProjects_Unofficial\EmployeeAPIException\EmployeeAPIException\Repository\EmployeeRepository.cs:line 34
+   at EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById(Guid id) in C:\DotNETProjects_Unofficial\EmployeeAPIException\EmployeeAPIException\Controllers\EmployeeController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-09-17 13:03:44.053 +05:30 [DBG] 'EmployeeDbContext' disposed.
+2024-09-17 13:03:44.053 +05:30 [DBG] Connection ID "17942340934234538033" disconnecting.
+2024-09-17 13:03:44.053 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Employee/38dec2ee-1518-4e24-b0a9-89daa1146b65 - - - 500 - text/plain 340.2793ms
+2024-09-17 14:13:11.155 +05:30 [INF] Starting up the application...
+2024-09-17 14:13:13.169 +05:30 [DBG] Hosting starting
+2024-09-17 14:13:13.711 +05:30 [DBG] Loaded hosting startup assembly EmployeeAPIException
+2024-09-17 14:13:13.727 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-17 14:13:13.727 +05:30 [INF] Hosting environment: Development
+2024-09-17 14:13:13.727 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\EmployeeAPIException\EmployeeAPIException
+2024-09-17 14:13:13.727 +05:30 [DBG] Hosting started
+2024-09-17 14:13:13.794 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2024-09-17 14:13:13.812 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-17 14:13:14.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 401.5826ms
+2024-09-17 14:13:14.194 +05:30 [DBG] Connection ID "18230571318976184441" disconnecting.
+2024-09-17 14:13:14.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2024-09-17 14:13:14.787 +05:30 [DBG] Connection ID "18302628887244308530" disconnecting.
+2024-09-17 14:13:14.787 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.0490ms
+2024-09-17 14:20:22.945 +05:30 [INF] Starting up the application...
+2024-09-17 14:20:24.988 +05:30 [DBG] Hosting starting
+2024-09-17 14:20:25.623 +05:30 [DBG] Loaded hosting startup assembly EmployeeAPIException
+2024-09-17 14:20:25.638 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-17 14:20:25.638 +05:30 [INF] Hosting environment: Development
+2024-09-17 14:20:25.638 +05:30 [INF] Content root path: C:\DotNETProjects_Unofficial\EmployeeAPIException\EmployeeAPIException
+2024-09-17 14:20:25.638 +05:30 [DBG] Hosting started
+2024-09-17 14:20:25.730 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/index.html - -
+2024-09-17 14:20:25.751 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-17 14:20:26.299 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/index.html - - - 200 - text/html;charset=utf-8 579.5978ms
+2024-09-17 14:20:26.302 +05:30 [DBG] Connection ID "18302628908719145084" disconnecting.
+2024-09-17 14:20:26.542 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - -
+2024-09-17 14:20:26.786 +05:30 [DBG] Connection ID "18230571310386249791" disconnecting.
+2024-09-17 14:20:26.787 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 244.6895ms
+2024-09-17 14:20:32.698 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Employee - -
+2024-09-17 14:20:32.707 +05:30 [DBG] The request path  does not match the path filter
+2024-09-17 14:20:32.795 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-17 14:20:32.815 +05:30 [DBG] Endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-17 14:20:32.817 +05:30 [DBG] Request matched endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException)'
+2024-09-17 14:20:32.828 +05:30 [INF] Executing endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException)'
+2024-09-17 14:20:32.854 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-17 14:20:32.936 +05:30 [INF] Route matched with {action = "GetAllEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllEmployees() on controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException).
+2024-09-17 14:20:32.950 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 14:20:32.951 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 14:20:32.951 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 14:20:32.952 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 14:20:32.952 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 14:20:32.955 +05:30 [DBG] Executing controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:20:33.271 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-17 14:20:33.633 +05:30 [DBG] Executed controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:20:35.013 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 14:20:35.131 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()'
+2024-09-17 14:20:35.494 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Email (string), 1], [Property: Employee.MobileNumber (string), 2], [Property: Employee.Name (string), 3], [Property: Employee.Password (string), 4], [Property: Employee.Salary (int) Required, 5], }
+        SELECT e.Id, e.Email, e.MobileNumber, e.Name, e.Password, e.Salary
+        FROM Employees AS e), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeAPIException.Data.EmployeeDbContext, 
+    False, 
+    False
+)'
+2024-09-17 14:20:35.591 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 14:20:35.716 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (120ms).
+2024-09-17 14:20:35.729 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:36.417 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:36.441 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+2024-09-17 14:20:36.544 +05:30 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+2024-09-17 14:20:36.605 +05:30 [DBG] Context 'EmployeeDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:20:36.674 +05:30 [DBG] Context 'EmployeeDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:20:36.681 +05:30 [DBG] A data reader was disposed.
+2024-09-17 14:20:36.690 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:36.705 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:36.760 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 14:20:36.765 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 14:20:36.766 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 14:20:36.766 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 14:20:36.769 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-17 14:20:36.770 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeAPIException.Models.DTO.EmployeeDTO, EmployeeAPIException, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-17 14:20:36.835 +05:30 [INF] Executed action EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException) in 3868.992ms
+2024-09-17 14:20:36.838 +05:30 [INF] Executed endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetAllEmployees (EmployeeAPIException)'
+2024-09-17 14:20:36.842 +05:30 [DBG] Connection ID "18374686489872171131" disconnecting.
+2024-09-17 14:20:36.845 +05:30 [DBG] 'EmployeeDbContext' disposed.
+2024-09-17 14:20:36.850 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Employee - - - 200 - application/json;+charset=utf-8 4152.8284ms
+2024-09-17 14:20:47.487 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44344/api/Employee application/json 89
+2024-09-17 14:20:47.487 +05:30 [DBG] POST requests are not supported
+2024-09-17 14:20:47.489 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee'
+2024-09-17 14:20:47.489 +05:30 [DBG] Endpoint 'EmployeeAPIException.Controllers.EmployeeController.AddEmployee (EmployeeAPIException)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2024-09-17 14:20:47.490 +05:30 [DBG] Request matched endpoint 'EmployeeAPIException.Controllers.EmployeeController.AddEmployee (EmployeeAPIException)'
+2024-09-17 14:20:47.490 +05:30 [INF] Executing endpoint 'EmployeeAPIException.Controllers.EmployeeController.AddEmployee (EmployeeAPIException)'
+2024-09-17 14:20:47.520 +05:30 [INF] Route matched with {action = "AddEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployee(EmployeeAPIException.Models.DTO.AddEmployeeDTO) on controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException).
+2024-09-17 14:20:47.520 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 14:20:47.520 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 14:20:47.520 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 14:20:47.520 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 14:20:47.520 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 14:20:47.520 +05:30 [DBG] Executing controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:20:47.521 +05:30 [DBG] Executed controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:20:47.535 +05:30 [DBG] Attempting to bind parameter 'addEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.AddEmployeeDTO' ...
+2024-09-17 14:20:47.539 +05:30 [DBG] Attempting to bind parameter 'addEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.AddEmployeeDTO' using the name '' in request data ...
+2024-09-17 14:20:47.541 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-17 14:20:47.598 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'EmployeeAPIException.Models.DTO.AddEmployeeDTO'
+2024-09-17 14:20:47.599 +05:30 [DBG] Done attempting to bind parameter 'addEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.AddEmployeeDTO'.
+2024-09-17 14:20:47.599 +05:30 [DBG] Done attempting to bind parameter 'addEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.AddEmployeeDTO'.
+2024-09-17 14:20:47.599 +05:30 [DBG] Attempting to validate the bound parameter 'addEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.AddEmployeeDTO' ...
+2024-09-17 14:20:47.605 +05:30 [DBG] Done attempting to validate the bound parameter 'addEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.AddEmployeeDTO'.
+2024-09-17 14:20:47.705 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 14:20:47.730 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .FirstOrDefault(e => e.Email == __employee_Email_0)'
+2024-09-17 14:20:47.852 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Employee>(
+    asyncEnumerable: new SingleQueryingEnumerable<Employee>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Email (string), 1], [Property: Employee.MobileNumber (string), 2], [Property: Employee.Name (string), 3], [Property: Employee.Password (string), 4], [Property: Employee.Salary (int) Required, 5], }
+            SELECT TOP(1) e.Id, e.Email, e.MobileNumber, e.Name, e.Password, e.Salary
+            FROM Employees AS e
+            WHERE e.Email == @__employee_Email_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+        EmployeeAPIException.Data.EmployeeDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-17 14:20:47.884 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 14:20:47.885 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 14:20:47.894 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:47.896 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:47.902 +05:30 [DBG] Executing DbCommand [Parameters=[@__employee_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__employee_Email_0
+2024-09-17 14:20:47.967 +05:30 [INF] Executed DbCommand (70ms) [Parameters=[@__employee_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Email] = @__employee_Email_0
+2024-09-17 14:20:47.971 +05:30 [DBG] A data reader was disposed.
+2024-09-17 14:20:47.972 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:47.972 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:48.038 +05:30 [DBG] Context 'EmployeeDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:20:48.048 +05:30 [DBG] SaveChanges starting for 'EmployeeDbContext'.
+2024-09-17 14:20:48.054 +05:30 [DBG] DetectChanges starting for 'EmployeeDbContext'.
+2024-09-17 14:20:48.087 +05:30 [DBG] DetectChanges completed for 'EmployeeDbContext'.
+2024-09-17 14:20:48.141 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:48.141 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:48.145 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-17 14:20:48.160 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-09-17 14:20:48.294 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 14:20:48.295 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 14:20:48.300 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Id], [Email], [MobileNumber], [Name], [Password], [Salary])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-17 14:20:48.306 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Id], [Email], [MobileNumber], [Name], [Password], [Salary])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-17 14:20:48.320 +05:30 [DBG] A data reader was disposed.
+2024-09-17 14:20:48.332 +05:30 [DBG] Committing transaction.
+2024-09-17 14:20:48.339 +05:30 [DBG] Committed transaction.
+2024-09-17 14:20:48.347 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:48.347 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:20:48.351 +05:30 [DBG] Disposing transaction.
+2024-09-17 14:20:48.374 +05:30 [DBG] An entity of type 'Employee' tracked by 'EmployeeDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:20:48.380 +05:30 [DBG] SaveChanges completed for 'EmployeeDbContext' with 1 entities written to the database.
+2024-09-17 14:20:48.385 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 14:20:48.385 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 14:20:48.385 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 14:20:48.385 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 14:20:48.386 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-17 14:20:48.386 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'EmployeeAPIException.Models.DTO.EmployeeDTO'.
+2024-09-17 14:20:48.436 +05:30 [DBG] Found the endpoints ["EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2024-09-17 14:20:48.464 +05:30 [DBG] Successfully processed template api/Employee/{id:Guid} for EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException) resulting in /api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e and 
+2024-09-17 14:20:48.486 +05:30 [DBG] Link generation succeeded for endpoints ["EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)"] with result /api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e
+2024-09-17 14:20:48.488 +05:30 [INF] Executed action EmployeeAPIException.Controllers.EmployeeController.AddEmployee (EmployeeAPIException) in 967.5372ms
+2024-09-17 14:20:48.488 +05:30 [INF] Executed endpoint 'EmployeeAPIException.Controllers.EmployeeController.AddEmployee (EmployeeAPIException)'
+2024-09-17 14:20:48.488 +05:30 [DBG] Connection ID "18302628887244308532" disconnecting.
+2024-09-17 14:20:48.488 +05:30 [DBG] 'EmployeeDbContext' disposed.
+2024-09-17 14:20:48.489 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44344/api/Employee application/json 89 - 201 - application/json;+charset=utf-8 1002.2140ms
+2024-09-17 14:21:04.324 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e - -
+2024-09-17 14:21:04.324 +05:30 [DBG] The request path  does not match the path filter
+2024-09-17 14:21:04.325 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e'
+2024-09-17 14:21:04.325 +05:30 [DBG] Endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)' with route pattern 'api/Employee/{id:Guid}' is valid for the request path '/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e'
+2024-09-17 14:21:04.325 +05:30 [DBG] Request matched endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 14:21:04.326 +05:30 [INF] Executing endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 14:21:04.341 +05:30 [INF] Route matched with {action = "GetEmployeeById", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeeById(System.Guid) on controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException).
+2024-09-17 14:21:04.341 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 14:21:04.341 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 14:21:04.342 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 14:21:04.342 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 14:21:04.342 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 14:21:04.342 +05:30 [DBG] Executing controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:21:04.349 +05:30 [DBG] Executed controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:21:04.352 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-09-17 14:21:04.354 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-09-17 14:21:04.355 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:04.355 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:04.355 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-09-17 14:21:04.356 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:04.377 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 14:21:04.396 +05:30 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .FirstOrDefault(e => object.Equals(
+        objA: EF.Property<object>(e, "Id"), 
+        objB: (object)__get_Item_0))'
+2024-09-17 14:21:04.459 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Employee>(
+    asyncEnumerable: new SingleQueryingEnumerable<Employee>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Email (string), 1], [Property: Employee.MobileNumber (string), 2], [Property: Employee.Name (string), 3], [Property: Employee.Password (string), 4], [Property: Employee.Salary (int) Required, 5], }
+            SELECT TOP(1) e.Id, e.Email, e.MobileNumber, e.Name, e.Password, e.Salary
+            FROM Employees AS e
+            WHERE e.Id == @__get_Item_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+        EmployeeAPIException.Data.EmployeeDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-17 14:21:04.460 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 14:21:04.460 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 14:21:04.460 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:04.461 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:04.461 +05:30 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 14:21:04.465 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 14:21:04.466 +05:30 [DBG] Context 'EmployeeDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:21:04.466 +05:30 [DBG] A data reader was disposed.
+2024-09-17 14:21:04.466 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:04.467 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:04.469 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 14:21:04.469 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 14:21:04.470 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 14:21:04.470 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 14:21:04.470 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-17 14:21:04.470 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeAPIException.Models.DTO.EmployeeDTO'.
+2024-09-17 14:21:04.471 +05:30 [INF] Executed action EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException) in 128.7081ms
+2024-09-17 14:21:04.471 +05:30 [INF] Executed endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 14:21:04.471 +05:30 [DBG] 'EmployeeDbContext' disposed.
+2024-09-17 14:21:04.471 +05:30 [DBG] Connection ID "18230571310386249793" disconnecting.
+2024-09-17 14:21:04.471 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e - - - 200 - application/json;+charset=utf-8 147.4982ms
+2024-09-17 14:21:09.369 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44344/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597f - -
+2024-09-17 14:21:09.370 +05:30 [DBG] The request path  does not match the path filter
+2024-09-17 14:21:09.370 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597f'
+2024-09-17 14:21:09.370 +05:30 [DBG] Endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)' with route pattern 'api/Employee/{id:Guid}' is valid for the request path '/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597f'
+2024-09-17 14:21:09.370 +05:30 [DBG] Request matched endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 14:21:09.371 +05:30 [INF] Executing endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 14:21:09.371 +05:30 [INF] Route matched with {action = "GetEmployeeById", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployeeById(System.Guid) on controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException).
+2024-09-17 14:21:09.371 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 14:21:09.372 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 14:21:09.372 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 14:21:09.372 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 14:21:09.372 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 14:21:09.372 +05:30 [DBG] Executing controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:21:09.373 +05:30 [DBG] Executed controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:21:09.374 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-09-17 14:21:09.374 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-09-17 14:21:09.375 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:09.375 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:09.375 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-09-17 14:21:09.375 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:09.376 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 14:21:09.387 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 14:21:09.388 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 14:21:09.388 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:09.388 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:09.389 +05:30 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 14:21:09.395 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 14:21:09.396 +05:30 [DBG] A data reader was disposed.
+2024-09-17 14:21:09.397 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:09.398 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:09.554 +05:30 [WRN] Employee with ID '7b8c2d6f-ca36-49eb-b6cc-6315e7f4597f' was not found.
+2024-09-17 14:21:09.555 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 14:21:09.555 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 14:21:09.555 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 14:21:09.555 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 14:21:09.555 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-09-17 14:21:09.555 +05:30 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-09-17 14:21:09.556 +05:30 [INF] Executed action EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException) in 183.7792ms
+2024-09-17 14:21:09.556 +05:30 [INF] Executed endpoint 'EmployeeAPIException.Controllers.EmployeeController.GetEmployeeById (EmployeeAPIException)'
+2024-09-17 14:21:09.558 +05:30 [DBG] 'EmployeeDbContext' disposed.
+2024-09-17 14:21:09.559 +05:30 [DBG] Connection ID "18374686494167138351" disconnecting.
+2024-09-17 14:21:09.559 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44344/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597f - - - 404 - text/plain;+charset=utf-8 189.9255ms
+2024-09-17 14:21:29.262 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:44344/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e application/json 91
+2024-09-17 14:21:29.270 +05:30 [DBG] PUT requests are not supported
+2024-09-17 14:21:29.271 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e'
+2024-09-17 14:21:29.271 +05:30 [DBG] Endpoint 'EmployeeAPIException.Controllers.EmployeeController.UpdateEmployee (EmployeeAPIException)' with route pattern 'api/Employee/{id:Guid}' is valid for the request path '/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e'
+2024-09-17 14:21:29.272 +05:30 [DBG] Request matched endpoint 'EmployeeAPIException.Controllers.EmployeeController.UpdateEmployee (EmployeeAPIException)'
+2024-09-17 14:21:29.272 +05:30 [INF] Executing endpoint 'EmployeeAPIException.Controllers.EmployeeController.UpdateEmployee (EmployeeAPIException)'
+2024-09-17 14:21:29.283 +05:30 [INF] Route matched with {action = "UpdateEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateEmployee(System.Guid, EmployeeAPIException.Models.DTO.UpdateEmployeeDTO) on controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException).
+2024-09-17 14:21:29.283 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 14:21:29.283 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 14:21:29.283 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 14:21:29.284 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 14:21:29.284 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 14:21:29.284 +05:30 [DBG] Executing controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:21:29.284 +05:30 [DBG] Executed controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:21:29.285 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-09-17 14:21:29.285 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-09-17 14:21:29.285 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:29.285 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:29.285 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-09-17 14:21:29.285 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:29.285 +05:30 [DBG] Attempting to bind parameter 'updateEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.UpdateEmployeeDTO' ...
+2024-09-17 14:21:29.285 +05:30 [DBG] Attempting to bind parameter 'updateEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.UpdateEmployeeDTO' using the name '' in request data ...
+2024-09-17 14:21:29.286 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-17 14:21:29.289 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'EmployeeAPIException.Models.DTO.UpdateEmployeeDTO'
+2024-09-17 14:21:29.289 +05:30 [DBG] Done attempting to bind parameter 'updateEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.UpdateEmployeeDTO'.
+2024-09-17 14:21:29.290 +05:30 [DBG] Done attempting to bind parameter 'updateEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.UpdateEmployeeDTO'.
+2024-09-17 14:21:29.290 +05:30 [DBG] Attempting to validate the bound parameter 'updateEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.UpdateEmployeeDTO' ...
+2024-09-17 14:21:29.291 +05:30 [DBG] Done attempting to validate the bound parameter 'updateEmployeeDTO' of type 'EmployeeAPIException.Models.DTO.UpdateEmployeeDTO'.
+2024-09-17 14:21:29.300 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 14:21:29.301 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 14:21:29.301 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 14:21:29.302 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:29.302 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:29.302 +05:30 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 14:21:29.308 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 14:21:29.309 +05:30 [DBG] Context 'EmployeeDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:21:29.311 +05:30 [DBG] A data reader was disposed.
+2024-09-17 14:21:29.311 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:29.311 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:29.312 +05:30 [DBG] SaveChanges starting for 'EmployeeDbContext'.
+2024-09-17 14:21:29.312 +05:30 [DBG] DetectChanges starting for 'EmployeeDbContext'.
+2024-09-17 14:21:29.316 +05:30 [DBG] The unchanged property 'Employee.Salary' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-09-17 14:21:29.318 +05:30 [DBG] An entity of type 'Employee' tracked by 'EmployeeDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:21:29.318 +05:30 [DBG] DetectChanges completed for 'EmployeeDbContext'.
+2024-09-17 14:21:29.319 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:29.319 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:29.319 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-17 14:21:29.320 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-09-17 14:21:29.329 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 14:21:29.330 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 14:21:29.330 +05:30 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Employees] SET [Salary] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2024-09-17 14:21:29.333 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Employees] SET [Salary] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+2024-09-17 14:21:29.339 +05:30 [DBG] A data reader was disposed.
+2024-09-17 14:21:29.339 +05:30 [DBG] Committing transaction.
+2024-09-17 14:21:29.350 +05:30 [DBG] Committed transaction.
+2024-09-17 14:21:29.350 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:29.350 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:29.351 +05:30 [DBG] Disposing transaction.
+2024-09-17 14:21:29.351 +05:30 [DBG] An entity of type 'Employee' tracked by 'EmployeeDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:21:29.351 +05:30 [DBG] SaveChanges completed for 'EmployeeDbContext' with 1 entities written to the database.
+2024-09-17 14:21:29.351 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-17 14:21:29.351 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-09-17 14:21:29.351 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-17 14:21:29.351 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-17 14:21:29.352 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-17 14:21:29.352 +05:30 [INF] Executing OkObjectResult, writing value of type 'EmployeeAPIException.Models.DTO.EmployeeDTO'.
+2024-09-17 14:21:29.352 +05:30 [INF] Executed action EmployeeAPIException.Controllers.EmployeeController.UpdateEmployee (EmployeeAPIException) in 68.3454ms
+2024-09-17 14:21:29.352 +05:30 [INF] Executed endpoint 'EmployeeAPIException.Controllers.EmployeeController.UpdateEmployee (EmployeeAPIException)'
+2024-09-17 14:21:29.353 +05:30 [DBG] 'EmployeeDbContext' disposed.
+2024-09-17 14:21:29.353 +05:30 [DBG] Connection ID "18374686489872171133" disconnecting.
+2024-09-17 14:21:29.353 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:44344/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e application/json 91 - 200 - application/json;+charset=utf-8 92.7128ms
+2024-09-17 14:21:41.695 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:44344/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e - -
+2024-09-17 14:21:41.696 +05:30 [DBG] DELETE requests are not supported
+2024-09-17 14:21:41.696 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e'
+2024-09-17 14:21:41.696 +05:30 [DBG] Endpoint 'EmployeeAPIException.Controllers.EmployeeController.DeleteEmployee (EmployeeAPIException)' with route pattern 'api/Employee/{id:Guid}' is valid for the request path '/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e'
+2024-09-17 14:21:41.696 +05:30 [DBG] Request matched endpoint 'EmployeeAPIException.Controllers.EmployeeController.DeleteEmployee (EmployeeAPIException)'
+2024-09-17 14:21:41.697 +05:30 [INF] Executing endpoint 'EmployeeAPIException.Controllers.EmployeeController.DeleteEmployee (EmployeeAPIException)'
+2024-09-17 14:21:41.709 +05:30 [INF] Route matched with {action = "DeleteEmployee", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployee(System.Guid) on controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException).
+2024-09-17 14:21:41.709 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-17 14:21:41.709 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-17 14:21:41.709 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-17 14:21:41.709 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-17 14:21:41.709 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-17 14:21:41.709 +05:30 [DBG] Executing controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:21:41.710 +05:30 [DBG] Executed controller factory for controller EmployeeAPIException.Controllers.EmployeeController (EmployeeAPIException)
+2024-09-17 14:21:41.710 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2024-09-17 14:21:41.710 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2024-09-17 14:21:41.710 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:41.710 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:41.710 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2024-09-17 14:21:41.710 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2024-09-17 14:21:41.719 +05:30 [INF] Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-09-17 14:21:41.721 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 14:21:41.721 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 14:21:41.721 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:41.722 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:41.722 +05:30 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 14:21:41.724 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Email], [e].[MobileNumber], [e].[Name], [e].[Password], [e].[Salary]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2024-09-17 14:21:41.725 +05:30 [DBG] Context 'EmployeeDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:21:41.725 +05:30 [DBG] A data reader was disposed.
+2024-09-17 14:21:41.725 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:41.725 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:41.736 +05:30 [DBG] An entity of type 'Employee' tracked by 'EmployeeDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:21:41.740 +05:30 [DBG] SaveChanges starting for 'EmployeeDbContext'.
+2024-09-17 14:21:41.741 +05:30 [DBG] DetectChanges starting for 'EmployeeDbContext'.
+2024-09-17 14:21:41.741 +05:30 [DBG] DetectChanges completed for 'EmployeeDbContext'.
+2024-09-17 14:21:41.741 +05:30 [DBG] Opening connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:41.741 +05:30 [DBG] Opened connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:41.741 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-17 14:21:41.742 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-09-17 14:21:41.746 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-17 14:21:41.746 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-17 14:21:41.746 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Employees]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2024-09-17 14:21:41.750 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Employees]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2024-09-17 14:21:41.751 +05:30 [DBG] A data reader was disposed.
+2024-09-17 14:21:41.751 +05:30 [DBG] Committing transaction.
+2024-09-17 14:21:41.758 +05:30 [DBG] Committed transaction.
+2024-09-17 14:21:41.758 +05:30 [DBG] Closing connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:41.758 +05:30 [DBG] Closed connection to database 'EmpExceptionDb' on server '(localdb)\MSSQLLocalDB'.
+2024-09-17 14:21:41.759 +05:30 [DBG] Disposing transaction.
+2024-09-17 14:21:41.772 +05:30 [DBG] An entity of type 'Employee' tracked by 'EmployeeDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-17 14:21:41.772 +05:30 [DBG] SaveChanges completed for 'EmployeeDbContext' with 1 entities written to the database.
+2024-09-17 14:21:41.782 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2024-09-17 14:21:41.783 +05:30 [INF] Executed action EmployeeAPIException.Controllers.EmployeeController.DeleteEmployee (EmployeeAPIException) in 73.1052ms
+2024-09-17 14:21:41.783 +05:30 [INF] Executed endpoint 'EmployeeAPIException.Controllers.EmployeeController.DeleteEmployee (EmployeeAPIException)'
+2024-09-17 14:21:41.785 +05:30 [DBG] 'EmployeeDbContext' disposed.
+2024-09-17 14:21:41.785 +05:30 [DBG] Connection ID "18302628887244308534" disconnecting.
+2024-09-17 14:21:41.785 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:44344/api/Employee/7b8c2d6f-ca36-49eb-b6cc-6315e7f4597e - - - 204 - - 89.6103ms
